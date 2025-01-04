@@ -16,6 +16,7 @@ resources:
   - name: JKAN JSON
     url: 'https://opendataphilly.org/data.json'
     format: json
+start_date: 2024-07-12
 category:
   - Transportation
 ---
