@@ -6,7 +6,7 @@ import 'bootstrap/js/dist/collapse'
 import DatasetsList from './components/datasets-list'
 import CategoriesFilter from './components/categories-filter'
 import OrganizationsFilter from './components/organizations-filter'
-import YearsFilter from './components/year-filter'
+import YearsFilter from './components/years-filter'
 import DatasetDisplay from './components/dataset-display'
 import {queryByComponent} from './util'
 

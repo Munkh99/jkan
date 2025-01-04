@@ -6,13 +6,13 @@ import {setContent, slugify, createDatasetFilters, collapseListGroup} from '../u
 
 export default class {
   constructor (opts) {
-    const organizations = this._yearsWithCount(opts.datasets, opts.params)
+    const organizations = this._organizationsWithCount(opts.datasets, opts.params)
     const organizationsMarkup = organizations.map(TmplListGroupItem)
     setContent(opts.el, organizationsMarkup)
     collapseListGroup(opts.el)
   }
 
-  _yearsWithCount (datasets, params) {
+  _organizationsWithCount (datasets, params) {
     return chain(datasets)
       .groupBy('organization')
       .map(function (datasetsInOrg, organization) {
