@@ -29,7 +29,7 @@ const components = [
   {tag: 'dataset-display', class: DatasetDisplay},
   {tag: 'datasets-list', class: DatasetsList, usesDatasets: true},
   {tag: 'categories-filter', class: CategoriesFilter, usesDatasets: true},
-  {tag: 'organizations-filter', class: OrganizationsFilter, usesDatasets: true}
+  {tag: 'organizations-filter', class: OrganizationsFilter, usesDatasets: true},
   {tag: 'collections-filter', class: CollectionsFilter, usesDatasets: true}
 ]
 for (let component of components) {
