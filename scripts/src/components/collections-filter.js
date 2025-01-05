@@ -1,45 +1,31 @@
 import $ from 'jquery'
-import { chain, pick, omit, filter, defaults } from 'lodash'
+import {chain, pick, omit, filter, defaults} from 'lodash'
 
 import TmplListGroupItem from '../templates/list-group-item'
-import { setContent, slugify, createDatasetFilters, collapseListGroup } from '../util'
+import {setContent, slugify, createDatasetFilters, collapseListGroup} from '../util'
 
-export default class CollectionFilter {
-  constructor(opts) {
-    const collections = this._collectionsWithCount(opts.datasets, opts.params)
-    const collectionsMarkup = collections.map(TmplListGroupItem)
-    setContent(opts.el, collectionsMarkup)
+export default class CollectionFilter{
+  constructor (opts) {
+    const organizations = this._collectionsWithCount(opts.datasets, opts.params)
+    const organizationsMarkup = organizations.map(TmplListGroupItem)
+    setContent(opts.el, organizationsMarkup)
     collapseListGroup(opts.el)
   }
 
-  // Given an array of datasets, returns an array of their collection names with counts
-  _collectionsWithCount(datasets, params) {
+  _collectionsWithCount (datasets, params) {
     return chain(datasets)
-      .filter('collection_name')
-      .flatMap((value) => {
-        // Explode objects where collection_name is an array into one object per collection_name
-        if (typeof value.collection_name === 'string') return value
-        const duplicates = []
-        value.collection_name.forEach((name) => {
-          duplicates.push(defaults({ collection_name: name }, value))
-        })
-        return duplicates
-      })
-      .groupBy('collection_name')
-      .map((datasetsInCollection, collectionName) => {
-        const filters = createDatasetFilters(pick(params, ['organization']))
-        const filteredDatasets = filter(datasetsInCollection, filters)
-        const collectionSlug = slugify(collectionName)
-        const selected = params.collection_name && params.collection_name === collectionSlug
-        const itemParams = selected
-          ? omit(params, 'collection_name')
-          : defaults({ collection_name: collectionSlug }, params)
-
+      .groupBy('organization')
+      .map(function (datasetsInOrg, organization) {
+        const filters = createDatasetFilters(pick(params, ['category']))
+        const filteredDatasets = filter(datasetsInOrg, filters)
+        const orgSlug = slugify(organization)
+        const selected = params.organization && params.organization === orgSlug
+        const itemParams = selected ? omit(params, 'organization') : defaults({organization: orgSlug}, params)
         return {
-          title: collectionName,
+          title: organization,
           url: '?' + $.param(itemParams),
           count: filteredDatasets.length,
-          unfilteredCount: datasetsInCollection.length,
+          unfilteredCount: datasetsInOrg.length,
           selected: selected
         }
       })

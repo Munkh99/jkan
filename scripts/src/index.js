@@ -31,7 +31,6 @@ const components = [
   {tag: 'categories-filter', class: CategoriesFilter, usesDatasets: true},
   {tag: 'organizations-filter', class: OrganizationsFilter, usesDatasets: true}
   {tag: 'collections-filter', class: CollectionsFilter, usesDatasets: true}
-  {tag: 'years-filter', class: YearsFilter, usesDatasets: true}
 ]
 for (let component of components) {
   const els = queryByComponent(component.tag)
