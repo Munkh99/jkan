@@ -26,6 +26,9 @@ dataset_fields:
   - field_name: start_date
     label: Start Date
     datajson: start_date
+  - field_name: collection_name
+  - label: Collection Name
+  - datajson: collection_name
 
 resource_fields:
   - field_name: name
