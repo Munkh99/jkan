@@ -23,7 +23,7 @@ function getDatasets () {
   datasetsCache = datasetsCache || $.getJSON(`${settings.BASE_URL}/datasets.json`)
   return datasetsCache
 }
-
+console.log('init');
 // Check for these components on the page and initialize them
 const components = [
   {tag: 'dataset-display', class: DatasetDisplay},
