@@ -29,6 +29,9 @@ dataset_fields:
   - field_name: collection_name
     label: Collection Name
     datajson: collection_name
+  - field_name: location
+    label: Location
+    datajson: location
 
 resource_fields:
   - field_name: name
