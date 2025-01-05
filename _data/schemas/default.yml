@@ -50,6 +50,12 @@ resource_fields:
       - kmz
       - shp
       - xml
+  - field_name: start_date
+    label: Start Date
+    datajson: start_date
+  - field_name: collection_name
+  - label: Collection Name
+  - datajson: collection_name
 
 organization_fields:
   - field_name: title
