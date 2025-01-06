@@ -31,6 +31,15 @@ export function createDatasetFilters (filters) {
     if (filters.category) {
       conditions.push(dataset.category && slugify(dataset.category).indexOf(filters.category) !== -1)
     }
+    if (filters.collection_name) {
+      conditions.push(dataset.collection_name && slugify(dataset.collection_name).indexOf(filters.collection_name) !== -1)
+    }
+    if (filters.location) {
+      conditions.push(dataset.location && slugify(dataset.location).indexOf(filters.location) !== -1)
+    }
+
+
+
     return conditions.every(function (value) { return !!value })
   }
 }
