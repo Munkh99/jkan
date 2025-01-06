@@ -1,33 +1,39 @@
+import $ from 'jquery'
+import { chain, pick, omit, filter, defaults } from 'lodash'
+
+import TmplListGroupItem from '../templates/list-group-item'
+import { setContent, slugify, createDatasetFilters, collapseListGroup } from '../util'
+
 export default class {
   constructor(opts) {
-    const years = this._yearsWithCount(opts.datasets, opts.params);
-    const yearsMarkup = years.map(TmplListGroupItem);
-    setContent(opts.el, yearsMarkup);
-    collapseListGroup(opts.el);
-    console.log('init year2 filter');
-    console.log(years);
+    const startDates = this._startDatesWithCount(opts.datasets, opts.params)
+    const startDatesMarkup = startDates.map(TmplListGroupItem)
+    setContent(opts.el, startDatesMarkup)
+    collapseListGroup(opts.el)
+    console.log('init start_date filter')
+    console.log(startDates)
   }
 
-  _yearsWithCount(datasets, params) {
+  _startDatesWithCount(datasets, params) {
     return chain(datasets)
-      .groupBy('start_date') // Group datasets by full start_date
-      .map((datasetsInYear, startDate) => {
-        const filters = createDatasetFilters(pick(params, ['category']));
-        const filteredDatasets = filter(datasetsInYear, filters);
-        const startDateSlug = slugify(startDate); // Use full date as slug
-        const selected = params.start_date && params.start_date === startDateSlug;
+      .groupBy('start_date') // Group datasets by start_date
+      .map((datasetsByDate, startDate) => {
+        const filters = createDatasetFilters(pick(params, ['category']))
+        const filteredDatasets = filter(datasetsByDate, filters)
+        const dateSlug = slugify(startDate)
+        const selected = params.start_date && params.start_date === dateSlug
         const itemParams = selected
           ? omit(params, 'start_date')
-          : defaults({ start_date: startDateSlug }, params);
+          : defaults({ start_date: dateSlug }, params)
         return {
-          title: startDate, // Display full date
+          title: startDate, // Display the full start_date
           url: '?' + $.param(itemParams),
           count: filteredDatasets.length,
-          unfilteredCount: datasetsInYear.length,
-          selected: selected,
-        };
+          unfilteredCount: datasetsByDate.length,
+          selected: selected
+        }
       })
-      .orderBy('unfilteredCount', 'desc') // Order by count
-      .value();
+      .orderBy('unfilteredCount', 'desc') // Sort by dataset count
+      .value()
   }
 }
