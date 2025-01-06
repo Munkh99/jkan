@@ -32,6 +32,7 @@ export function createDatasetFilters (filters) {
       conditions.push(dataset.category && slugify(dataset.category).indexOf(filters.category) !== -1)
     }
     if (filters.collection_name) {
+        console.log("collection_name")
       conditions.push(dataset.collection_name && slugify(dataset.collection_name).indexOf(filters.collection_name) !== -1)
     }
     if (filters.location) {
