@@ -6,9 +6,9 @@ import 'bootstrap/js/dist/collapse'
 import DatasetsList from './components/datasets-list'
 import CategoriesFilter from './components/categories-filter'
 import OrganizationsFilter from './components/organizations-filter'
-import YearsFilter from './components/years-filter'
 import CollectionsFilter from './components/collections-filter'
 import LocationFilter from './components/location-filter'
+import YearFilter from './components/year-filter'
 import DatasetDisplay from './components/dataset-display'
 import {queryByComponent} from './util'
 
@@ -32,7 +32,8 @@ const components = [
   {tag: 'categories-filter', class: CategoriesFilter, usesDatasets: true},
   {tag: 'organizations-filter', class: OrganizationsFilter, usesDatasets: true},
   {tag: 'collections-filter', class: CollectionsFilter, usesDatasets: true},
-  {tag: 'location-filter', class: LocationFilter, usesDatasets: true}
+  {tag: 'location-filter', class: LocationFilter, usesDatasets: true},
+  {tag: 'year-filter', class: YearFilter, usesDatasets: true}
 ]
 for (let component of components) {
   const els = queryByComponent(component.tag)

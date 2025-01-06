@@ -8,6 +8,7 @@
     "category": {{ dataset.category | jsonify }}{% endif %},
     "collection_name": {{ dataset.collection_name | jsonify }},
     "location": {{ dataset.location | jsonify }},
+    "start_date": {{ dataset.start_date | jsonify }},
     "url": "{{ site.baseurl }}{{ dataset.url }}"
   }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
