@@ -10,8 +10,6 @@ export default class {
     const yearsMarkup = years.map(TmplListGroupItem)
     setContent(opts.el, yearsMarkup)
     collapseListGroup(opts.el)
-    console.log('Year Filter Initialized')
-    console.log('Years:', years)
   }
 
   _yearsWithCount(datasets, params) {
