@@ -29,7 +29,7 @@ export function createDatasetFilters (filters) {
       conditions.push(dataset.organization && slugify(dataset.organization) === filters.organization)
     }
     if (filters.category) {
-      conditions.push(dataset.category && slugify(dataset.category).indexOf(filters.category) !== -1)
+      conditions.push(dataset.category && slugify(dataset.category) === filters.category)
     }
     if (filters.collection_name) {
       conditions.push(dataset.collection_name && slugify(dataset.collection_name).indexOf(filters.collection_name) !== -1)
