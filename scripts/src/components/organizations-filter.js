@@ -10,8 +10,6 @@ export default class {
     const organizationsMarkup = organizations.map(TmplListGroupItem)
     setContent(opts.el, organizationsMarkup)
     collapseListGroup(opts.el)
-
-    console.log('init organizations filter');
   }
 
   _organizationsWithCount (datasets, params) {

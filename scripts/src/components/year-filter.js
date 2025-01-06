@@ -6,26 +6,27 @@ import {setContent, slugify, createDatasetFilters, collapseListGroup} from '../u
 
 export default class {
   constructor (opts) {
-    const organizations = this._yearsWithCount(opts.datasets, opts.params)
-    const organizationsMarkup = organizations.map(TmplListGroupItem)
-    setContent(opts.el, organizationsMarkup)
+    const years = this._yearsWithCount(opts.datasets, opts.params)
+    const yearsMarkup = years.map(TmplListGroupItem)
+    setContent(opts.el, yearsMarkup)
     collapseListGroup(opts.el)
+    console.log('init year filter');
   }
 
   _yearsWithCount (datasets, params) {
     return chain(datasets)
-      .groupBy('organization')
-      .map(function (datasetsInOrg, organization) {
-        const filters = createDatasetFilters(pick(params, ['category']))
-        const filteredDatasets = filter(datasetsInOrg, filters)
-        const orgSlug = slugify(organization)
-        const selected = params.organization && params.organization === orgSlug
-        const itemParams = selected ? omit(params, 'organization') : defaults({organization: orgSlug}, params)
+      .groupBy('year') // Group datasets by year
+      .map((datasetsInYear, organization) => {
+        const filters = createDatasetFilters(pick(params, ['category', 'organization']))
+        const filteredDatasets = filter(datasetsInYear, filters)
+        const yearSlug = slugify(year)
+        const selected = params.year && params.year === yearSlug
+        const itemParams = selected ? omit(params, 'year') : defaults({year: yearSlug}, params)
         return {
-          title: organization,
+          title: year, // display the year
           url: '?' + $.param(itemParams),
           count: filteredDatasets.length,
-          unfilteredCount: datasetsInOrg.length,
+          unfilteredCount: datasetsInYear.length,
           selected: selected
         }
       })
@@ -33,3 +34,4 @@ export default class {
       .value()
   }
 }
+
