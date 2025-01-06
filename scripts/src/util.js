@@ -37,7 +37,7 @@ export function createDatasetFilters (filters) {
     if (filters.location) {
       conditions.push(dataset.location && slugify(dataset.location).indexOf(filters.location) !== -1)
     }
-    if (filters.start_date) {
+    if (filters.year) {
       conditions.push(dataset.start_date && slugify(dataset.start_date).indexOf(filters.start_date) !== -1)
     }
 
