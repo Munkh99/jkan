@@ -10,16 +10,20 @@ export default class {
     const startDatesMarkup = startDates.map(TmplListGroupItem)
     setContent(opts.el, startDatesMarkup)
     collapseListGroup(opts.el)
-    console.log('init start_date filter')
-    console.log(startDates)
+    console.log('Start Date Filter Initialized')
+    console.log('Start Dates:', startDates)
   }
 
   _startDatesWithCount(datasets, params) {
     return chain(datasets)
       .groupBy('start_date') // Group datasets by start_date
       .map((datasetsByDate, startDate) => {
+        console.log('Datasets for date:', startDate, datasetsByDate)
+
         const filters = createDatasetFilters(pick(params, ['category']))
         const filteredDatasets = filter(datasetsByDate, filters)
+        console.log('Filtered datasets for date:', startDate, filteredDatasets)
+
         const dateSlug = slugify(startDate)
         const selected = params.start_date && params.start_date === dateSlug
         const itemParams = selected
