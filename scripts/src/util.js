@@ -32,20 +32,14 @@ export function createDatasetFilters (filters) {
       conditions.push(dataset.category && slugify(dataset.category).indexOf(filters.category) !== -1)
     }
     if (filters.collection_name) {
-        console.log("collection_name")
       conditions.push(dataset.collection_name && slugify(dataset.collection_name).indexOf(filters.collection_name) !== -1)
     }
     if (filters.location) {
       conditions.push(dataset.location && slugify(dataset.location).indexOf(filters.location) !== -1)
     }
-    console.log('filter:', filter)
-    console.log('filters.year: ', filter.year)
-    console.log('filters.start_date: ', filter.start_date)
     if (filters.year) {
       conditions.push(dataset.start_date && slugify(dataset.start_date).indexOf(filters.start_date) !== -1)
     }
-
-
 
     return conditions.every(function (value) { return !!value })
   }
