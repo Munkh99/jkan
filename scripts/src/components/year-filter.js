@@ -17,12 +17,12 @@ export default class {
   _yearsWithCount (datasets, params) {
     return chain(datasets)
       .groupBy('start_date') // Group datasets by year
-      .map((datasetsInYear, organization) => {
+      .map((datasetsInYear, year) => {
         const filters = createDatasetFilters(pick(params, ['category']))
         const filteredDatasets = filter(datasetsInYear, filters)
         const yearSlug = slugify(year)
         const selected = params.year && params.year === yearSlug
-        const itemParams = selected ? omit(params, 'year') : defaults({year: yearSlug}, params)
+        const itemParams = selected ? omit(params, 'start_date') : defaults({year: yearSlug}, params)
         return {
           title: year, // display the year
           url: '?' + $.param(itemParams),
