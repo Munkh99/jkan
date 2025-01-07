@@ -39,9 +39,9 @@ export function createDatasetFilters (filters) {
     }
 //      const datasetYear = new Date(dataset.start_date).getFullYear().toString(); // Extract year from start_date
     if (filters.year) {
-      const yearFromTitleMatch = dataset.title.match(/^\d{4}/); // Extract year from title
-      const yearFromTitle = yearFromTitleMatch ? yearFromTitleMatch[0] : null; // Get the year or null
-      conditions.push(yearFromTitle === filters.year); // Compare extracted year to filters.year
+      const yearFromTitleMatch = dataset.title.match(/^\d{4}/); // Match the year at the start of the title
+      const yearFromTitle = yearFromTitleMatch ? yearFromTitleMatch[0] : null; // Extract the year or set to null
+      conditions.push(yearFromTitle && yearFromTitle === filters.year); // Include datasets that start with the specified year
     }
 
     return conditions.every(function (value) { return !!value })
