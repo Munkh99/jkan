@@ -40,7 +40,7 @@ export function createDatasetFilters (filters) {
     if (filters.year) {
 //      const datasetYear = new Date(dataset.start_date).getFullYear().toString(); // Extract year from start_date
       const yearFromTitle = dataset.title.match(/^\d{4}/); // Extract year from title
-      conditions.push(yearFromTitle === filters.year); // Compare it to the filters.year
+      conditions.push(yearFromTitle[0] === filters.year); // Compare it to the filters.year
     }
 
     return conditions.every(function (value) { return !!value })
