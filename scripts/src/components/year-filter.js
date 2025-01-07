@@ -14,7 +14,7 @@ export default class {
 
   _yearsWithCount(datasets, params) {
     return chain(datasets)
-      .groupBy((dataset) => { new Date(dataset.start_date).getFullYear();
+      .groupBy((dataset) => {
         const yearFromStartDate = new Date(dataset.start_date).getFullYear(); // Extract year from start_date
         const titleYearMatch = dataset.title.match(/^\d{4}/); // Extract year from title if it exists
         if (titleYearMatch) {
@@ -23,13 +23,15 @@ export default class {
           console.log(`Title: ${dataset.title}, No Year Found in Title`);
         }
         return yearFromStartDate;
-      }) // Group datasets by the year of start_date
+      })
       .map((datasetsByYear, year) => {
+        console.log(`Datasets for year: ${year}`, datasetsByYear);
+
         const filters = createDatasetFilters(pick(params, ['category']))
         const filteredDatasets = filter(datasetsByYear, filters)
         console.log('Filtered datasets for year:', year, filteredDatasets)
 
-        const yearSlug = slugify(year.toString()) // Make sure the year is a string
+        const yearSlug = slugify(year.toString()) // Ensure the year is a string
         const selected = params.year && params.year === yearSlug
         const itemParams = selected
           ? omit(params, 'year')
