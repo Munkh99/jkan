@@ -16,10 +16,11 @@ export default class {
     return chain(datasets)
       .groupBy((dataset) => {
 //        const yearFromStartDate = new Date(dataset.start_date).getFullYear(); // Extract year from start_date
-        const titleYearMatch = dataset.title.match(/^\d{4}/); // Extract year from title if it exists
-        console.log(`Title: ${dataset.title}, Extracted Year from Title: ${titleYearMatch[0]}`);
-        console.log('extracted');
-        return titleYearMatch[0];
+          const titleYearMatch = dataset.title.match(/^\d{4}/); // Extract year from title
+          const year = titleYearMatch ? titleYearMatch[0] : '2000'; // Default to 'Unknown' if no match
+          console.log(`Title: ${dataset.title}, Extracted Year: ${year}`);
+          return year;
+
       })
       .map((datasetsByYear, year) => {
         console.log(`Datasets for year: ${year}`, datasetsByYear);
