@@ -16,7 +16,14 @@ export default class {
     return chain(datasets)
       .groupBy((dataset) => new Date(dataset.start_date).getFullYear()) // Group datasets by the year of start_date
       .map((datasetsByYear, year) => {
-        console.log('Datasets for year:', year, datasetsByYear)
+        console.log('Datasets for year:', dataset.title)
+        const yearMatch = title.match(/^\d{4}/);
+
+        if (yearMatch) {
+          console.log('Extracted year:', yearMatch[0]);
+        } else {
+          console.log('No year found in title');
+        }
 
         const filters = createDatasetFilters(pick(params, ['category']))
         const filteredDatasets = filter(datasetsByYear, filters)
