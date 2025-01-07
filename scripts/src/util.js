@@ -38,8 +38,9 @@ export function createDatasetFilters (filters) {
       conditions.push(dataset.location && slugify(dataset.location).indexOf(filters.location) !== -1)
     }
     if (filters.year) {
-      const datasetYear = new Date(dataset.start_date).getFullYear().toString(); // Extract year from start_date
-      conditions.push(datasetYear === filters.year); // Compare it to the filters.year
+//      const datasetYear = new Date(dataset.start_date).getFullYear().toString(); // Extract year from start_date
+      const yearFromTitle = dataset.title.match(/^\d{4}/); // Extract year from title
+      conditions.push(yearFromTitle === filters.year); // Compare it to the filters.year
     }
 
     return conditions.every(function (value) { return !!value })
