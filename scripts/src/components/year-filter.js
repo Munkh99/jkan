@@ -17,8 +17,8 @@ export default class {
       .groupBy((dataset) => {
 //        const yearFromStartDate = new Date(dataset.start_date).getFullYear(); // Extract year from start_date
         const titleYearMatch = dataset.title.match(/^\d{4}/); // Extract year from title if it exists
-        console.log('Title: ${dataset.title}, Extracted Year from Title: ${titleYearMatch[0]}');
-        console.log('extracted')
+        console.log(`Title: ${dataset.title}, Extracted Year from Title: ${titleYearMatch[0]}`);
+        console.log('extracted');
         return titleYearMatch[0];
       })
       .map((datasetsByYear, year) => {
