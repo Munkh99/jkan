@@ -43,7 +43,9 @@ export default class {
           selected: selected
         }
       })
-      .orderBy('unfilteredCount', 'desc') // Sort by dataset count
-      .value()
+      .orderBy(
+        [(item) => parseInt(item.title, 10)], // Parse year as a number for proper sorting
+        ['desc'] // Sort in ascending order
+      )
   }
 }

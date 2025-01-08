@@ -43,7 +43,7 @@ export default class CollectionFilter {
           selected: selected
         }
       })
-      .orderBy('unfilteredCount', 'desc')
+      .orderBy('title', 'asc')
       .value()
   }
 }

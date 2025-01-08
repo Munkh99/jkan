@@ -40,7 +40,7 @@ export default class {
           selected: selected
         }
       })
-      .orderBy('unfilteredCount', 'desc')
+      .orderBy('title', 'asc')
       .value()
   }
 }

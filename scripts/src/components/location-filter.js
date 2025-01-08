@@ -43,7 +43,7 @@ export default class LocationFilter {
           selected: selected
         }
       })
-      .orderBy('unfilteredCount', 'desc')
+      .orderBy('title', 'asc')
       .value()
   }
 }
