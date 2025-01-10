@@ -32,6 +32,9 @@ dataset_fields:
   - field_name: location
     label: Location
     datajson: location
+  - field_name: location_continent_facet
+    label: Continent
+    datajson: location_continent_facet
 
 resource_fields:
   - field_name: name
