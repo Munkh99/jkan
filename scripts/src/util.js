@@ -44,7 +44,7 @@ export function createDatasetFilters(filters) {
         }
 
         // facet
-        if (filters.location) {
+        if (filters.location_continent_facet) {
             conditions.push(dataset.location_continent_facet && slugify(dataset.location_continent_facet).indexOf(filters.location_continent_facet) !== -1)
         }
 
