@@ -4,16 +4,16 @@ import { chain, pick, omit, filter, defaults } from 'lodash'
 import TmplListGroupItem from '../templates/list-group-item'
 import { setContent, slugify, createDatasetFilters, collapseListGroup } from '../util'
 
-export default class LocationFilter {
+export default class LocationContinentFilter {
   constructor(opts) {
-    const locations = this._continentsWithCount(opts.datasets, opts.params)
+    const locations = this._locationsWithCount(opts.datasets, opts.params)
     const locationsMarkup = locations.map(TmplListGroupItem)
     setContent(opts.el, locationsMarkup)
     collapseListGroup(opts.el)
   }
 
   // Given an array of datasets, returns an array of their locations with counts
-  _continentsWithCount(datasets, params) {
+  _locationsWithCount(datasets, params) {
     return chain(datasets)
       .filter('location_continent_facet')  // Change to location_continent_facet
       .flatMap((value) => {
@@ -24,7 +24,7 @@ export default class LocationFilter {
           duplicates.push(defaults({ location_continent_facet: loc }, value))  // Change here to location_continent_facet
         })
         return duplicates
-      }) 
+      })
       .groupBy('location_continent_facet')  // Change to location_continent_facet
       .map((datasetsInLoc, location) => {
         const filters = createDatasetFilters(pick(params, ['location_continent_facet']))  // Change to location_continent_facet
