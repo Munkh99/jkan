@@ -64,6 +64,14 @@ export function createDatasetFilters(filters) {
             conditions.push(dataset.duration_facet && slugify(dataset.duration_facet).indexOf(filters.duration_facet) !== -1)
         }
 
+        if (filters.data_type_facet) {
+            console.log("filter data_type_facet")
+            console.log(filters.data_type_facet)
+            console.log(dataset.data_type_facet)
+            conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet).indexOf(filters.data_type_facet) !== -1)
+        }
+
+
 
 
 
