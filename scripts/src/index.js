@@ -10,7 +10,7 @@ import CollectionsFilter from './components/collections-filter'
 import LocationFilter from './components/location-filter'
 import YearFilter from './components/year-filter'
 import LocationContinentFilter from './components/location-continent-filter'
-import DurationFilter from './components/duration'
+import DurationFilter from './components/durations-filter'
 import DatasetDisplay from './components/dataset-display'
 import {queryByComponent} from './util'
 
