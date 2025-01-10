@@ -35,6 +35,8 @@ export function createDatasetFilters(filters) {
             conditions.push(dataset.collection_name && slugify(dataset.collection_name).indexOf(filters.collection_name) !== -1)
         }
         if (filters.location) {
+            console.log("filter location")
+            console.log(filters.location)
             conditions.push(dataset.location && slugify(dataset.location).indexOf(filters.location) !== -1)
         }
         if (filters.year) {
