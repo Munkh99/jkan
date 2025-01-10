@@ -37,6 +37,7 @@ export function createDatasetFilters(filters) {
         if (filters.location) {
             console.log("filter location")
             console.log(filters.location)
+            console.log(dataset.location)
             conditions.push(dataset.location && slugify(dataset.location).indexOf(filters.location) !== -1)
         }
         if (filters.year) {
@@ -47,6 +48,9 @@ export function createDatasetFilters(filters) {
 
         // facet
         if (filters.location_continent_facet) {
+            console.log("filter location_continent_facet")
+            console.log(filters.location_continent_facet)
+            console.log(dataset.location_continent_facet)
             conditions.push(dataset.location_continent_facet && slugify(dataset.location_continent_facet).indexOf(filters.location_continent_facet) !== -1)
         }
 
