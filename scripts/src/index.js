@@ -9,6 +9,7 @@ import OrganizationsFilter from './components/organizations-filter'
 import CollectionsFilter from './components/collections-filter'
 import LocationFilter from './components/location-filter'
 import YearFilter from './components/year-filter'
+import LocationContinentFilter from './components/location-continent-filter'
 import DatasetDisplay from './components/dataset-display'
 import {queryByComponent} from './util'
 
@@ -33,7 +34,8 @@ const components = [
   {tag: 'organizations-filter', class: OrganizationsFilter, usesDatasets: true},
   {tag: 'collections-filter', class: CollectionsFilter, usesDatasets: true},
   {tag: 'location-filter', class: LocationFilter, usesDatasets: true},
-  {tag: 'year-filter', class: YearFilter, usesDatasets: true}
+  {tag: 'year-filter', class: YearFilter, usesDatasets: true},
+  {tag: 'location-continent-filter', class: LocationContinentFilter, usesDatasets: true}
 ]
 for (let component of components) {
   const els = queryByComponent(component.tag)
