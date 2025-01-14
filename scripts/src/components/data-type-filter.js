@@ -4,46 +4,32 @@ import { chain, pick, omit, filter, defaults } from 'lodash'
 import TmplListGroupItem from '../templates/list-group-item'
 import { setContent, slugify, createDatasetFilters, collapseListGroup } from '../util'
 
-export default class DataTypeFilter {
+export default class {
   constructor(opts) {
-    const durations = this._dataTypesWithCount(opts.datasets, opts.params)
-    const durationsMarkup = durations.map(TmplListGroupItem)
-    setContent(opts.el, durationsMarkup)
+    const dataTypes = this._dataTypesWithCount(opts.datasets, opts.params)
+    const dataTypesMarkup = dataTypes.map(TmplListGroupItem)
+    setContent(opts.el, dataTypesMarkup)
     collapseListGroup(opts.el)
   }
 
-  // Given an array of datasets, returns an array of their durations with counts
-  _dataTyWithCount(datasets, params) {
+  _dataTypesWithCount(datasets, params) {
     return chain(datasets)
-      .filter('duration_facet') // Filter datasets with a duration_facet
-      .flatMap((value) => {
-        // Explode objects where duration_facet is an array into one object per duration
-        if (typeof value.duration_facet === 'string') return value
-        const duplicates = []
-        value.duration_facet.forEach((duration) => {
-          duplicates.push(defaults({ duration_facet: duration }, value)) // Adjust to duration_facet
-        })
-        return duplicates
-      })
-      .groupBy('duration_facet') // Group by duration_facet
-      .map((datasetsInDuration, duration) => {
-        const filters = createDatasetFilters(pick(params, ['duration_facet'])) // Adjust to duration_facet
-        const filteredDatasets = filter(datasetsInDuration, filters)
-        const durationSlug = slugify(duration)
-        const selected = params.duration_facet && params.duration_facet === durationSlug // Adjust to duration_facet
-        const itemParams = selected
-          ? omit(params, 'duration_facet') // Adjust to duration_facet
-          : defaults({ duration_facet: durationSlug }, params) // Adjust to duration_facet
-
+      .groupBy('data_type_facet') // Group by the 'data_type_facet' column
+      .map(function(datasetsInType, dataType) {
+        const filters = createDatasetFilters(pick(params, [['category', 'collection_name', 'location', 'location_continent_facet', 'year', 'data_type_facet']])) // Include other filters if needed
+        const filteredDatasets = filter(datasetsInType, filters)
+        const typeSlug = slugify(dataType)
+        const selected = params.data_type_facet && params.data_type_facet === typeSlug
+        const itemParams = selected ? omit(params, 'data_type_facet') : defaults({ data_type_facet: typeSlug }, params)
         return {
-          title: duration,
+          title: dataType,
           url: '?' + $.param(itemParams),
           count: filteredDatasets.length,
-          unfilteredCount: datasetsInDuration.length,
+          unfilteredCount: datasetsInType.length,
           selected: selected
         }
       })
-      .orderBy('title', 'asc')
+      .orderBy('title', 'asc') // Order by title alphabetically
       .value()
   }
 }
