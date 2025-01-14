@@ -15,8 +15,8 @@ latitude_map: 46.07
 longitude_map: 11.13
 start_date: 2020-09-28
 end_date: 2020-12-11
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Diachronic-Interactions/">Diachronic-Interactions</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Synchronic-Interactions/">Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Time%20Diaries/"> Timediaries </a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20C/">Questionnaire C</a>
+dataset_type: Sensors
+sensor_type: nan
 size: 1585.77 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b309">https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b309</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAA.BN-BO
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Diachronic-Interactions/">2020-DV1-Trento-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Location%20Event%20Per%20Time%20POI/">2020-DV1-Trento-Location Event Per Time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Location%20Event%20Per%20Time%20RD/">2020-DV1-Trento-Location Event Per Time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Synchronic-Interactions/">2020-DV1-Trento-Synchronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Time%20Diaries/">2020-DV1-Trento-Time Diaries</a>
 duration_facet: "2-6 months"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Daily annotations & Location
-project_facet: DiversityOne-Trento
 ---

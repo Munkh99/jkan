@@ -15,8 +15,8 @@ latitude_map: 21.03
 longitude_map: 105.8
 start_date: 2022-06-13
 end_date: 2022-07-11
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Diachronic-Interactions/"> Diachronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-App-usage/"> App-usage</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Device-usage/"> Device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Position/"> Position</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Connectivity/"> Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Motion/"> Motion</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Environment/"> Environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Diachronic-Interactions/"> Diachronic-Interactions</a>
+dataset_type: nan
+sensor_type: nan
 size: 11264 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: OpenCalls
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca">https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca</a>
 category: 
   - Project
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.**
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-App-usage/">2022-OC1-Hanoi-App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Connectivity/">2022-OC1-Hanoi-Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Device-usage/">2022-OC1-Hanoi-Device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Diachronic-Interactions/">2022-OC1-Hanoi-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Environment/">2022-OC1-Hanoi-Environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Motion/">2022-OC1-Hanoi-Motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Position/">2022-OC1-Hanoi-Position</a>
 duration_facet: "1 month"
+location_facet: Vietnam
 location_continent_facet: Asia
 data_type_facet: nan
-project_facet: OpenCalls-Hanoi
 ---

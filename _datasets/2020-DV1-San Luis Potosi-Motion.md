@@ -16,7 +16,7 @@ longitude_map: -100.9
 start_date: 2019-08-30
 end_date: 2021-08-14
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Accelerometer%20Event/">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Activities%20Per%20Label/">activities per label</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Activities%20Per%20Time/"> activities per time </a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Step%20Counter%20Event/">step counter</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Step%20Detector%20Event/">step detector</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD-Gyroscope%20Event/">gyroscope</a>
+sensor_type: nan
 size: 4198.40 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd">https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAH.AY-BF-BH-BI
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Accelerometer%20Event/">2020-DV1-San Luis Potos%C3%AD -Accelerometer Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Activities%20Per%20Label/">2020-DV1-San Luis Potos%C3%AD -Activities Per Label</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Activities%20Per%20Time/">2020-DV1-San Luis Potos%C3%AD -Activities Per Time</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Step%20Counter%20Event/">2020-DV1-San Luis Potos%C3%AD -Step Counter Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Step%20Detector%20Event/">2020-DV1-San Luis Potos%C3%AD -Step Detector Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD-Gyroscope%20Event/">2020-DV1-San Luis Potos%C3%AD-Gyroscope Event</a>
 duration_facet: ">12 months"
+location_facet: Mexico
 location_continent_facet: North America
 data_type_facet: Motion
-project_facet: DiversityOne-San Luis Potosí
 ---

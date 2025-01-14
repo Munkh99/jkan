@@ -15,8 +15,8 @@ latitude_map: 22.15
 longitude_map: -100.9
 start_date: 2019-08-30
 end_date: 2021-08-14
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Synchronic-Interactions/"> Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-App-usage/"> App-usage</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Device-usage/"> Device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Position/"> Position</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Connectivity/"> Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Motion/"> Motion</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Environment/"> Environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Synchronic-Interactions/"> Synchronic-Interactions</a>
+dataset_type: nan
+sensor_type: nan
 size: 6246.40 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd">https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd</a>
 category: 
   - Project
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAH.**
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-App-usage/">2020-DV1-San Luis Potosi-App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Connectivity/">2020-DV1-San Luis Potosi-Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Device-usage/">2020-DV1-San Luis Potosi-Device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Diachronic-Interactions/">2020-DV1-San Luis Potosi-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Environment/">2020-DV1-San Luis Potosi-Environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Motion/">2020-DV1-San Luis Potosi-Motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Position/">2020-DV1-San Luis Potosi-Position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potosi-Synchronic-Interactions/">2020-DV1-San Luis Potosi-Synchronic-Interactions</a>
 duration_facet: ">12 months"
+location_facet: Mexico
 location_continent_facet: North America
 data_type_facet: nan
-project_facet: DiversityOne-San Luis Potosí
 ---

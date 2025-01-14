@@ -16,7 +16,7 @@ longitude_map: 32.56
 start_date: 2024-03-18
 end_date: 2024-05-13
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Accelerometer%20Event/">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Accelerometer%20Uncalibrated/">accelerometer uncalibrated</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Activities/">activities</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Step%20Counter%20Event/">step counter</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Step%20Detector%20Event/">step detector</a> ,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Gyroscope%20Event/"> gyroscope </a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Gyroscope%20Uncalibrated/"> gyroscope uncalibrated</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Rotationvector/"> rotation </a>
+sensor_type: nan
 size: 12288 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: Makerere
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec12">https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec12</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.AY-AZ-BF-BH-BI-BB-BC-BG
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Accelerometer%20Event/">2024-MAK-Kampala-Accelerometer Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Accelerometer%20Uncalibrated/">2024-MAK-Kampala-Accelerometer Uncalibrated</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Activities/">2024-MAK-Kampala-Activities</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Gyroscope%20Event/">2024-MAK-Kampala-Gyroscope Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Gyroscope%20Uncalibrated/">2024-MAK-Kampala-Gyroscope Uncalibrated</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Rotationvector/">2024-MAK-Kampala-Rotationvector</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Step%20Counter%20Event/">2024-MAK-Kampala-Step Counter Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Step%20Detector%20Event/">2024-MAK-Kampala-Step Detector Event</a>
 duration_facet: "2-6 months"
+location_facet: Uganda
 location_continent_facet: Africa
 data_type_facet: Motion
-project_facet: Makerere-Kampala
 ---

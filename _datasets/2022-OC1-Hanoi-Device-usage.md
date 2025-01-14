@@ -16,7 +16,7 @@ longitude_map: 105.8
 start_date: 2022-06-13
 end_date: 2022-07-11
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Airplane%20Mode%20Event/">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Doze%20Event/">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Ring%20Mode%20Event/">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Screen%20Event/">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Touch%20Event/">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Batterycharge%20Event/">battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Battery%20Monitoring%20Log/">battery level</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-User%20Presence%20Event/">user presence</a>
+sensor_type: nan
 size: 15 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: OpenCalls
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca">https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.BS-BV-BW-BX-BY-BU-BT-BZ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Airplane%20Mode%20Event/">2022-OC1-Hanoi-Airplane Mode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Battery%20Monitoring%20Log/">2022-OC1-Hanoi-Battery Monitoring Log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Batterycharge%20Event/">2022-OC1-Hanoi-Batterycharge Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Doze%20Event/">2022-OC1-Hanoi-Doze Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Ring%20Mode%20Event/">2022-OC1-Hanoi-Ring Mode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Screen%20Event/">2022-OC1-Hanoi-Screen Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Touch%20Event/">2022-OC1-Hanoi-Touch Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-User%20Presence%20Event/">2022-OC1-Hanoi-User Presence Event</a>
 duration_facet: "1 month"
+location_facet: Vietnam
 location_continent_facet: Asia
 data_type_facet: Device-usage
-project_facet: OpenCalls-Hanoi
 ---

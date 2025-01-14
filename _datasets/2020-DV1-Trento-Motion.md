@@ -16,7 +16,7 @@ longitude_map: 11.13
 start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Accelerometer%20Event/">accelerometer</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Activities%20Per%20Time/"> activities per time </a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Step%20Counter%20Event/">step counter</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Step%20Detector%20Event/">step detector</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Gyroscope%20Event/">gyroscope</a>
+sensor_type: nan
 size: 19456 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b307">https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b307</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAA.AY-BF-BH-BI
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Accelerometer%20Event/">2020-DV1-Trento-Accelerometer Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Activities%20Per%20Time/">2020-DV1-Trento-Activities Per Time</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Gyroscope%20Event/">2020-DV1-Trento-Gyroscope Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Step%20Counter%20Event/">2020-DV1-Trento-Step Counter Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Step%20Detector%20Event/">2020-DV1-Trento-Step Detector Event</a>
 duration_facet: "2-6 months"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Motion
-project_facet: DiversityOne-Trento
 ---

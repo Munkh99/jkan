@@ -16,7 +16,7 @@ longitude_map: 32.56
 start_date: 2024-03-18
 end_date: 2024-05-13
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Airplane%20Mode%20Event/">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Doze/">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Ring%20Mode%20Event/">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Screen/">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Touch/">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Battery%20Charge%20Event/">battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Battery%20Monitoring%20Log/">battery level</a>
+sensor_type: nan
 size: 36 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: Makerere
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec10">https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec10</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.BS-BV-BW-BX-BY-BT-BU
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Airplane%20Mode%20Event/">2024-MAK-Kampala-Airplane Mode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Battery%20Charge%20Event/">2024-MAK-Kampala-Battery Charge Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Battery%20Monitoring%20Log/">2024-MAK-Kampala-Battery Monitoring Log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Doze/">2024-MAK-Kampala-Doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Ring%20Mode%20Event/">2024-MAK-Kampala-Ring Mode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Screen/">2024-MAK-Kampala-Screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Touch/">2024-MAK-Kampala-Touch</a>
 duration_facet: "2-6 months"
+location_facet: Uganda
 location_continent_facet: Africa
 data_type_facet: Device-usage
-project_facet: Makerere-Kampala
 ---

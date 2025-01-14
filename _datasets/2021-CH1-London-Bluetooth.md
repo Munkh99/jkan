@@ -29,13 +29,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAE.AK
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "1 month"
+location_facet: United Kingdom
 location_continent_facet: Europe
-data_type_facet: nan
-project_facet: ChatApplication1-London
+data_type_facet: Connectivity
 ---

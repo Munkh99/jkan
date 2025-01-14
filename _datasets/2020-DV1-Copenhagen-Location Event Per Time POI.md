@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2020-DiversityOne-Copenhagen-Location  POI
+title: 2020-DiversityOne-Copenhagen-Location POI
 organization: Unitn
 notes: This dataset returns the Point Of Interests surrounding the geocoordinates of where the phone is located. POI extracted every 5 minutes. It is part of Wenet Diversity 1 data collection, which contains data about the everyday life activities of students coming from 8 different universities located in China, Denmark, India, Italy, Mexico, Mongolia, Paraguay and UK. The data were collected via questionnaires, data coming from 27 smartphone sensors associated to thousand self-reported annotations over a period of 4 weeks.
 resources:
@@ -18,7 +18,7 @@ latitude_map: 55.67
 longitude_map: 12.56
 start_date: 2020-09-28
 end_date: 2020-12-11
-dataset_type: Sensors
+dataset_type: Sensor
 sensor_type: Position
 size: 47.35 MB
 dataset_format: parquet
@@ -29,13 +29,16 @@ collection_name: DiversityOne
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAC.BN
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "2-6 months"
+location_facet: Denmark
 location_continent_facet: Europe
-data_type_facet: nan
-project_facet: DiversityOne-Copenhagen
+data_type_facet: Position
 ---

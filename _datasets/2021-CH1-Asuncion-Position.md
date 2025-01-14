@@ -16,7 +16,7 @@ longitude_map: -57.57
 start_date: 2021-03-16
 end_date: 2021-03-31
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asunci%C3%B3n-Location%20Event/">location</a>
+sensor_type: nan
 size: 0.35 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/dcfa089a-1394-4536-abce-0dc44d6aeebd">https://ds.datascientia.eu/community/public/projects/dcfa089a-1394-4536-abce-0dc44d6aeebd</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAD.BM
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asunci%C3%B3n-Location%20Event/">2021-CH1-Asunci%C3%B3n-Location Event</a>
 duration_facet: "1 month"
+location_facet: Paraguay
 location_continent_facet: South America
 data_type_facet: Position
-project_facet: ChatApplication1-Asunción
 ---

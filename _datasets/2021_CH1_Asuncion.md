@@ -15,8 +15,8 @@ latitude_map: -25.26
 longitude_map: -57.57
 start_date: 2021-03-16
 end_date: 2021-03-31
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Synchronic-Interactions/"> Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-App-usage/"> App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Position/"> Position</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Connectivity/"> Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Motion/"> Motion</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Synchronic-Interactions/"> Synchronic-Interactions</a>
+dataset_type: nan
+sensor_type: nan
 size: 4.90 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/dcfa089a-1394-4536-abce-0dc44d6aeebd">https://ds.datascientia.eu/community/public/projects/dcfa089a-1394-4536-abce-0dc44d6aeebd</a>
 category: 
   - Project
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAD.AA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-App-usage/">2021-CH1-Asuncion-App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Connectivity/">2021-CH1-Asuncion-Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Diachronic-Interactions/">2021-CH1-Asuncion-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Motion/">2021-CH1-Asuncion-Motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Position/">2021-CH1-Asuncion-Position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Asuncion-Synchronic-Interactions/">2021-CH1-Asuncion-Synchronic-Interactions</a>
 duration_facet: "1 month"
+location_facet: Paraguay
 location_continent_facet: South America
 data_type_facet: nan
-project_facet: ChatApplication1-Asunción
 ---

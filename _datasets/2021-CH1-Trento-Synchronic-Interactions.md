@@ -16,7 +16,7 @@ longitude_map: 11.13
 start_date: 2021-06-04
 end_date: 2021-06-18
 dataset_type: Synchronic-Interactions
-sensor_type: <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Trento-Questionnaire-Exit-Survey/">Exit survey </a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Trento-Questionnaire%20Profiling/">Profiling</a>
+sensor_type: nan
 size: 0.18 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/046c8202-4e96-490f-95e7-007e72578655">https://ds.datascientia.eu/community/public/projects/046c8202-4e96-490f-95e7-007e72578655</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAA.AA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Trento-Questionnaire%20Profiling/">2021-CH1-Trento-Questionnaire Profiling</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Trento-Questionnaire-Exit-Survey/">2021-CH1-Trento-Questionnaire-Exit-Survey</a>
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Synchronic-Interactions
-project_facet: ChatApplication1-Trento
 ---

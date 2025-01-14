@@ -15,7 +15,7 @@ latitude_map: 21.03
 longitude_map: 105.8
 start_date: 2022-06-13
 end_date: 2022-07-11
-dataset_type: Sensors
+dataset_type: Sensor
 sensor_type: App-usage
 size: 48.73 MB
 dataset_format: parquet
@@ -26,13 +26,16 @@ collection_name: OpenCalls
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.AG
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "1 month"
+location_facet: Vietnam
 location_continent_facet: Asia
-data_type_facet: nan
-project_facet: OpenCalls-Hanoi
+data_type_facet: App-usage
 ---

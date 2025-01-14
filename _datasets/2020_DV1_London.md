@@ -15,8 +15,8 @@ latitude_map: 51.5
 longitude_map: 0.12
 start_date: 2020-10-19
 end_date: 2020-12-18
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Synchronic-Interactions/"> Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-App-usage/"> App-usage</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Device-usage/"> Device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Position/"> Position</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Connectivity/"> Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Motion/"> Motion</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Environment/"> Environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Synchronic-Interactions/"> Synchronic-Interactions</a>
+dataset_type: nan
+sensor_type: nan
 size: 12288 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90399">https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90399</a>
 category: 
   - Project
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAE.**
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-App-usage/">2020-DV1-London-App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Connectivity/">2020-DV1-London-Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Device-usage/">2020-DV1-London-Device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Diachronic-Interactions/">2020-DV1-London-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Environment/">2020-DV1-London-Environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Motion/">2020-DV1-London-Motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Position/">2020-DV1-London-Position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Synchronic-Interactions/">2020-DV1-London-Synchronic-Interactions</a>
 duration_facet: "2-6 months"
+location_facet: United Kingdom
 location_continent_facet: Europe
 data_type_facet: nan
-project_facet: DiversityOne-London
 ---

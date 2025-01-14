@@ -16,7 +16,7 @@ longitude_map: -57.57
 start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Accelerometer%20Event/">accelerometer</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Activities%20Per%20Time/"> activities per time </a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Step%20Counter%20Event/">step counter</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Step%20Detector%20Event/">step detector</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Gyroscope%20Event/">gyroscope</a>
+sensor_type: nan
 size: 1843.20 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/6b8e2fb9-30d9-4fdb-9116-0cc7cc00ba3e">https://ds.datascientia.eu/community/public/projects/6b8e2fb9-30d9-4fdb-9116-0cc7cc00ba3e</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAD.AY-BF-BH-BI
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Accelerometer%20Event/">2020-DV1-Asunci%C3%B3n-Accelerometer Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Activities%20Per%20Time/">2020-DV1-Asunci%C3%B3n-Activities Per Time</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Gyroscope%20Event/">2020-DV1-Asunci%C3%B3n-Gyroscope Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Step%20Counter%20Event/">2020-DV1-Asunci%C3%B3n-Step Counter Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Step%20Detector%20Event/">2020-DV1-Asunci%C3%B3n-Step Detector Event</a>
 duration_facet: "2-6 months"
+location_facet: Paraguay
 location_continent_facet: South America
 data_type_facet: Motion
-project_facet: DiversityOne-Asunción
 ---

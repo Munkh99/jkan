@@ -12,14 +12,14 @@ resources:
     format: PDF
 license: >-
  ./../../resources/2023LivePeopleLicense.html
-dataset_name: Synchronic Interactions
+dataset_name: Synchronic-Interactions
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
 start_date: 2018-05-11
 end_date: 2018-06-06
 dataset_type: Synchronic-Interactions
-sensor_type: <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Questionnaire/">Questionnaire </a>
+sensor_type: nan
 size: 1 MB
 dataset_format: parquet
 other_format: csv
@@ -29,13 +29,16 @@ collection_name: SmartUnitn2
 project_url: <a href="http://www.smart-society-project.eu/">http://www.smart-society-project.eu/</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.AA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Questionnaire/">2018-SU2-Trento-Questionnaire</a>
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: Synchronic Interactions
-project_facet: SmartUnitn2-Trento
+data_type_facet: Synchronic-Interactions
 ---

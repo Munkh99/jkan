@@ -16,7 +16,7 @@ longitude_map: 32.56
 start_date: 2024-03-18
 end_date: 2024-05-13
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Application%20Event/">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Headset%20Plug%20Event/">headsetplug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Music%20Event/">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Notification%20Event/">notification</a>
+sensor_type: nan
 size: 13 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: Makerere
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec8">https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec8</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.AG-AH-AI-AJ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Application%20Event/">2024-MAK-Kampala-Application Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Headset%20Plug%20Event/">2024-MAK-Kampala-Headset Plug Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Music%20Event/">2024-MAK-Kampala-Music Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Notification%20Event/">2024-MAK-Kampala-Notification Event</a>
 duration_facet: "2-6 months"
+location_facet: Uganda
 location_continent_facet: Africa
 data_type_facet: App-usage
-project_facet: Makerere-Kampala
 ---

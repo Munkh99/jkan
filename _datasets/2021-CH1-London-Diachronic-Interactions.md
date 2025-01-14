@@ -16,7 +16,7 @@ longitude_map: 0.12
 start_date: 2021-03-12
 end_date: 2021-03-28
 dataset_type: Diachronic-Interactions
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Chat/"> Chat</a>
+sensor_type: nan
 size: 0.16 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/7cdeeca4-a7be-4024-93c8-07e4cbea4855">https://ds.datascientia.eu/community/public/projects/7cdeeca4-a7be-4024-93c8-07e4cbea4855</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAE.CA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Chat/">2021-CH1-London-Chat</a>
 duration_facet: "1 month"
+location_facet: United Kingdom
 location_continent_facet: Europe
 data_type_facet: Diachronic-Interactions
-project_facet: ChatApplication1-London
 ---

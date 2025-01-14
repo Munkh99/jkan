@@ -15,8 +15,8 @@ latitude_map: 55.67
 longitude_map: 12.56
 start_date: 2021-11-22
 end_date: 2021-12-21
-dataset_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Copenhagen-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Copenhagen-Synchronic-Interactions/"> Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Copenhagen-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Copenhagen-Synchronic-Interactions/"> Synchronic-Interactions</a>
+dataset_type: nan
+sensor_type: nan
 size: 0.32 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication2
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/65f3fe8a-81e0-4177-8bec-7e52ad251c2d">https://ds.datascientia.eu/community/public/projects/65f3fe8a-81e0-4177-8bec-7e52ad251c2d</a>
 category: 
   - Project
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAC.**
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Copenhagen-Diachronic-Interactions/">2021-CH2-Copenhagen-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Copenhagen-Synchronic-Interactions/">2021-CH2-Copenhagen-Synchronic-Interactions</a>
 duration_facet: "1 month"
+location_facet: Denmark
 location_continent_facet: Europe
 data_type_facet: nan
-project_facet: ChatApplication2-Copenhagen
 ---

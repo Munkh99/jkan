@@ -16,7 +16,7 @@ longitude_map: 106.9
 start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Synchronic-Interactions
-sensor_type: <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Questionnaire%20Diversity%20C/">Questionnaire C</a>
+sensor_type: nan
 size: 5.70 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/f6bfbca4-fbe7-488f-bcf1-a66ac1f5a93a">https://ds.datascientia.eu/community/public/projects/f6bfbca4-fbe7-488f-bcf1-a66ac1f5a93a</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAB.AA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Questionnaire%20Diversity%20A/">2020-DV1-Ulan Bator-Questionnaire Diversity A</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Questionnaire%20Diversity%20B/">2020-DV1-Ulan Bator-Questionnaire Diversity B</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Ulan%20Bator-Questionnaire%20Diversity%20C/">2020-DV1-Ulan Bator-Questionnaire Diversity C</a>
 duration_facet: "2-6 months"
+location_facet: Mongolia
 location_continent_facet: Asia
 data_type_facet: Synchronic-Interactions
-project_facet: DiversityOne-Ulan Bator
 ---

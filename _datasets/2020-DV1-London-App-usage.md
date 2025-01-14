@@ -16,7 +16,7 @@ longitude_map: 0.12
 start_date: 2020-10-19
 end_date: 2020-12-18
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Application%20Event/">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Headset%20Plug%20Event/">headsetplug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Music%20Event/">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Notification%20Event/">notification</a>
+sensor_type: nan
 size: 54 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90399">https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90399</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAE.AG-AH-AI-AJ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Application%20Event/">2020-DV1-London-Application Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Headset%20Plug%20Event/">2020-DV1-London-Headset Plug Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Music%20Event/">2020-DV1-London-Music Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Notification%20Event/">2020-DV1-London-Notification Event</a>
 duration_facet: "2-6 months"
+location_facet: United Kingdom
 location_continent_facet: Europe
 data_type_facet: App-usage
-project_facet: DiversityOne-London
 ---

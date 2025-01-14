@@ -16,7 +16,7 @@ longitude_map: 11.13
 start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Airplane%20Mode%20Event/">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Doze%20Event/">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Ring%20Mode%20Event/">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Screen%20Event/">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Touch%20Event/">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Batterycharge%20Event/">battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Battery%20Monitoring%20Log/">battery level</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-User%20Presence%20Event/">user presence</a>
+sensor_type: nan
 size: 521 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b305">https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b305</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAA.BS-BV-BW-BX-BY-BU-BT-BZ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Airplane%20Mode%20Event/">2020-DV1-Trento-Airplane Mode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Battery%20Monitoring%20Log/">2020-DV1-Trento-Battery Monitoring Log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Batterycharge%20Event/">2020-DV1-Trento-Batterycharge Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Doze%20Event/">2020-DV1-Trento-Doze Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Ring%20Mode%20Event/">2020-DV1-Trento-Ring Mode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Screen%20Event/">2020-DV1-Trento-Screen Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Touch%20Event/">2020-DV1-Trento-Touch Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-User%20Presence%20Event/">2020-DV1-Trento-User Presence Event</a>
 duration_facet: "2-6 months"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Device-usage
-project_facet: DiversityOne-Trento
 ---

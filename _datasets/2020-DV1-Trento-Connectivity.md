@@ -16,7 +16,7 @@ longitude_map: 11.13
 start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Wifi%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Wifi%20Event/">wifi</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Bluetooth%20Normal%20Event/">bluetooth</a>
+sensor_type: nan
 size: 636 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b304">https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b304</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAA.AM-AO-AN-AK
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Bluetooth%20Normal%20Event/">2020-DV1-Trento-Bluetooth Normal Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Cellular%20Network/">2020-DV1-Trento-Cellular Network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Wifi%20Event/">2020-DV1-Trento-Wifi Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Wifi%20Networks%20Event/">2020-DV1-Trento-Wifi Networks Event</a>
 duration_facet: "2-6 months"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Connectivity
-project_facet: DiversityOne-Trento
 ---

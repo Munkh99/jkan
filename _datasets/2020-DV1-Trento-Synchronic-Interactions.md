@@ -16,7 +16,7 @@ longitude_map: 11.13
 start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Synchronic-Interactions
-sensor_type: <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20C/">Questionnaire C</a>
+sensor_type: nan
 size: 8.20 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b310">https://ds.datascientia.eu/community/public/projects/e464583f-32eb-44c1-a455-91503b02b310</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAA.AA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20A/">2020-DV1-Trento-Questionnaire Diversity A</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20B/">2020-DV1-Trento-Questionnaire Diversity B</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Trento-Questionnaire%20Diversity%20C/">2020-DV1-Trento-Questionnaire Diversity C</a>
 duration_facet: "2-6 months"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Synchronic-Interactions
-project_facet: DiversityOne-Trento
 ---

@@ -16,7 +16,7 @@ longitude_map: -57.57
 start_date: 2022-01-17
 end_date: 2022-02-07
 dataset_type: Diachronic-Interactions
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Asunci%C3%B3n-Chat/"> Chat</a>
+sensor_type: nan
 size: 0.10 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication2
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/46939d63-b717-474c-9aa6-51773556248f">https://ds.datascientia.eu/community/public/projects/46939d63-b717-474c-9aa6-51773556248f</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAD.CA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Asunci%C3%B3n-Chat/">2021-CH2-Asunci%C3%B3n-Chat</a>
 duration_facet: "1 month"
+location_facet: Paraguay
 location_continent_facet: South America
 data_type_facet: Diachronic-Interactions
-project_facet: ChatApplication2-Asunción
 ---

@@ -16,7 +16,7 @@ longitude_map: 32.56
 start_date: 2024-03-18
 end_date: 2024-05-13
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Proximity%20Event/">proximity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Magnetic%20Field%20Event/">magnetic field</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Magnetic%20Field%20Uncalibrated/">magnetic field uncalibrated</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Location%20Event%20Per%20Time/">location event per time</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Orientation%20Event/">orientation</a>
+sensor_type: nan
 size: 7884.80 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: Makerere
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec13">https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec13</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.BR-BP-BL-BM-BQ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Location%20Event%20Per%20Time/">2024-MAK-Kampala-Location Event Per Time</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Magnetic%20Field%20Event/">2024-MAK-Kampala-Magnetic Field Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Magnetic%20Field%20Uncalibrated/">2024-MAK-Kampala-Magnetic Field Uncalibrated</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Orientation%20Event/">2024-MAK-Kampala-Orientation Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Proximity%20Event/">2024-MAK-Kampala-Proximity Event</a>
 duration_facet: "2-6 months"
+location_facet: Uganda
 location_continent_facet: Africa
 data_type_facet: Position
-project_facet: Makerere-Kampala
 ---

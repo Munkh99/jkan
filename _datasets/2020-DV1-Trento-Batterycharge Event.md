@@ -12,13 +12,13 @@ resources:
     format: html
 license: >-
  ./../../resources/2023LivePeopleLicense.html
-dataset_name: Batterycharge
+dataset_name: Battery Charge
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
 start_date: 2020-09-28
 end_date: 2020-12-11
-dataset_type: Sensors
+dataset_type: Sensor
 sensor_type: Device-usage
 size: 244.67 MB
 dataset_format: parquet
@@ -29,13 +29,16 @@ collection_name: DiversityOne
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAA.BU
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "2-6 months"
+location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: nan
-project_facet: DiversityOne-Trento
+data_type_facet: Device-usage
 ---

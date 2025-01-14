@@ -16,7 +16,7 @@ longitude_map: 0.12
 start_date: 2021-03-12
 end_date: 2021-03-28
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Activities%20Per%20Time/"> activities per time </a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Step%20Counter%20Event/">step counter</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Step%20Detector%20Event/">step detector</a>
+sensor_type: nan
 size: 1.30 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/7cdeeca4-a7be-4024-93c8-07e4cbea4853">https://ds.datascientia.eu/community/public/projects/7cdeeca4-a7be-4024-93c8-07e4cbea4853</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAE.BF-BH-BI
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Activities%20Per%20Time/">2021-CH1-London-Activities Per Time</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Step%20Counter%20Event/">2021-CH1-London-Step Counter Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Step%20Detector%20Event/">2021-CH1-London-Step Detector Event</a>
 duration_facet: "1 month"
+location_facet: United Kingdom
 location_continent_facet: Europe
 data_type_facet: Motion
-project_facet: ChatApplication1-London
 ---

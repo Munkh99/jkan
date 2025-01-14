@@ -16,7 +16,7 @@ longitude_map: -57.57
 start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Synchronic-Interactions
-sensor_type: <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Questionnaire%20Diversity%20C/">Questionnaire C</a>
+sensor_type: nan
 size: 2.10 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/6b8e2fb9-30d9-4fdb-9116-0cc7cc00ba3e">https://ds.datascientia.eu/community/public/projects/6b8e2fb9-30d9-4fdb-9116-0cc7cc00ba3e</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAD.AA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Questionnaire%20Diversity%20A/">2020-DV1-Asunci%C3%B3n-Questionnaire Diversity A</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Questionnaire%20Diversity%20B/">2020-DV1-Asunci%C3%B3n-Questionnaire Diversity B</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asunci%C3%B3n-Questionnaire%20Diversity%20C/">2020-DV1-Asunci%C3%B3n-Questionnaire Diversity C</a>
 duration_facet: "2-6 months"
+location_facet: Paraguay
 location_continent_facet: South America
 data_type_facet: Synchronic-Interactions
-project_facet: DiversityOne-Asunción
 ---

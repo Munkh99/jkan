@@ -16,7 +16,7 @@ longitude_map: 22.94
 start_date: 2022-06-07
 end_date: 2022-07-06
 dataset_type: Diachronic-Interactions
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC2-Thessaloniki-Contribution%20Answers/"> Timediaries answers </a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC2-Thessaloniki-Contribution%20Questions/"> Timediaries questions </a>
+sensor_type: nan
 size: 2.10 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: OpenCalls
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/1e465a20-1650-42f7-88d4-d7b1b8ed6bb9">https://ds.datascientia.eu/community/public/projects/1e465a20-1650-42f7-88d4-d7b1b8ed6bb9</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAI.AAK.AB-AC
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC2-Thessaloniki-Contribution%20Answers/">2022-OC2-Thessaloniki-Contribution Answers</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC2-Thessaloniki-Contribution%20Questions/">2022-OC2-Thessaloniki-Contribution Questions</a>
 duration_facet: "1 month"
+location_facet: Greece
 location_continent_facet: Europe
 data_type_facet: Diachronic-Interactions
-project_facet: OpenCalls-Thessaloniki
 ---

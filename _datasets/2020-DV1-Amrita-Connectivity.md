@@ -16,7 +16,7 @@ longitude_map: 76.9
 start_date: 2021-05-26
 end_date: 2021-08-12
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Wifi%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Wifi%20Event/">wifi</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Bluetooth%20Normal%20Event/">bluetooth </a>
+sensor_type: nan
 size: 7.30 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/2c45f74f-6538-4bb5-a67e-1e9c15d0307c">https://ds.datascientia.eu/community/public/projects/2c45f74f-6538-4bb5-a67e-1e9c15d0307c</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAG.AM-AO-AN-AK
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Bluetooth%20Normal%20Event/">2020-DV1-Amrita-Bluetooth Normal Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Cellular%20Network/">2020-DV1-Amrita-Cellular Network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Wifi%20Event/">2020-DV1-Amrita-Wifi Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Amrita-Wifi%20Networks%20Event/">2020-DV1-Amrita-Wifi Networks Event</a>
 duration_facet: "2-6 months"
+location_facet: India
 location_continent_facet: Asia
 data_type_facet: Connectivity
-project_facet: DiversityOne-Amrita
 ---

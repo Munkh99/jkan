@@ -19,7 +19,7 @@ longitude_map: 11.13
 start_date: 2018-05-11
 end_date: 2018-06-06
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Pressure%20Event/">pressure</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Relative%20Humidity%20Event/">relative humidity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Light%20Event/">light</a>
+sensor_type: nan
 size: 95232 MB
 dataset_format: parquet
 other_format: csv
@@ -29,13 +29,16 @@ collection_name: SmartUnitn2
 project_url: <a href="http://www.smart-society-project.eu/">http://www.smart-society-project.eu/</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.AS-AT-AR
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Light%20Event/">2018-SU2-Trento-Light Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Pressure%20Event/">2018-SU2-Trento-Pressure Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Relative%20Humidity%20Event/">2018-SU2-Trento-Relative Humidity Event</a>
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Environment
-project_facet: SmartUnitn2-Trento
 ---

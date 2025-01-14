@@ -1,6 +1,6 @@
 ---
 schema: default
-title: 2018-SmartUnitn2-Trento-Doze Mode
+title: 2018-SmartUnitn2-Trento-Doze
 organization: Unitn
 notes: The dataset retunrs whether the doze status is on (true/false). It is part of SmartUnitn2 data collection, which contains data from 27 sensors associated to around 100+ thousand self-reported annotations about the everyday life of 158 university students over a period of 4 weeks, and also additional data about profile.
 resources:
@@ -15,14 +15,14 @@ resources:
     format: PDF
 license: >-
  ./../../resources/2023LivePeopleLicense.html
-dataset_name: Doze Mode
+dataset_name: Doze
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
 start_date: 2018-05-11
 end_date: 2018-06-06
 dataset_type: Sensor
-sensor_type: Device usage
+sensor_type: Device-usage
 size: 1 MB
 dataset_format: parquet
 other_format: csv
@@ -32,13 +32,16 @@ collection_name: SmartUnitn2
 project_url: <a href="http://www.smart-society-project.eu/">http://www.smart-society-project.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.BV
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: nan
-project_facet: SmartUnitn2-Trento
+data_type_facet: Device-usage
 ---

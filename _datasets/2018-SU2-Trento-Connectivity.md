@@ -19,7 +19,7 @@ longitude_map: 11.13
 start_date: 2018-05-11
 end_date: 2018-06-06
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-WIFI%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-WIFI%20Event/">wifi</a>
+sensor_type: nan
 size: 44 MB
 dataset_format: parquet
 other_format: csv
@@ -29,13 +29,16 @@ collection_name: SmartUnitn2
 project_url: <a href="http://www.smart-society-project.eu/">http://www.smart-society-project.eu/</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.AM-AO-AN
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Cellular%20Network/">2018-SU2-Trento-Cellular Network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-WIFI%20Event/">2018-SU2-Trento-WIFI Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-WIFI%20Networks%20Event/">2018-SU2-Trento-WIFI Networks Event</a>
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Connectivity
-project_facet: SmartUnitn2-Trento
 ---

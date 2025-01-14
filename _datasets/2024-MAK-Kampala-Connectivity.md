@@ -16,23 +16,26 @@ longitude_map: 32.56
 start_date: 2024-03-18
 end_date: 2024-05-13
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Wifi%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Wifi%20Event/">wifi</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Bluetooth%20Event/">bluetooth event</a>
+sensor_type: nan
 size: 65 MB
 dataset_format: parquet
 other_format: csv
 number_participants: 62
 language: Not Applicable
-collection_name: Makerere
+collection_name: MAK
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec9">https://ds.datascientia.eu/community/public/projects/896bbb55-5ee2-4653-9b43-69cc88633ec9</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.AM-AO-AN-AK
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Bluetooth%20Event/">2024-MAK-Kampala-Bluetooth Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Cellular%20Network/">2024-MAK-Kampala-Cellular Network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Wifi%20Event/">2024-MAK-Kampala-Wifi Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-MAK-Kampala-Wifi%20Networks%20Event/">2024-MAK-Kampala-Wifi Networks Event</a>
 duration_facet: "2-6 months"
+location_facet: Uganda
 location_continent_facet: Africa
 data_type_facet: Connectivity
-project_facet: Makerere-Kampala
 ---

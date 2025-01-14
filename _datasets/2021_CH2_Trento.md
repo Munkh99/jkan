@@ -15,8 +15,8 @@ latitude_map: 46.07
 longitude_map: 11.13
 start_date: 2021-11-20
 end_date: 2021-12-08
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Synchronic-Interactions/"> Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-App-usage/"> App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Position/"> Position</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Connectivity/"> Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Motion/"> Motion</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Synchronic-Interactions/">
+dataset_type: nan
+sensor_type: nan
 size: 6.40 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication2
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/326441a6-bc15-4393-b8e0-6ea7fcb4452e">https://ds.datascientia.eu/community/public/projects/326441a6-bc15-4393-b8e0-6ea7fcb4452e</a>
 category: 
   - Project
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAA.**
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-App-usage/">2021-CH2-Trento-App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Connectivity/">2021-CH2-Trento-Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Diachronic-Interactions/">2021-CH2-Trento-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Motion/">2021-CH2-Trento-Motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Position/">2021-CH2-Trento-Position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Synchronic-Interactions/">2021-CH2-Trento-Synchronic-Interactions</a>
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: nan
-project_facet: ChatApplication2-Trento
 ---

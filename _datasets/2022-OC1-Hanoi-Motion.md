@@ -16,7 +16,7 @@ longitude_map: 105.8
 start_date: 2022-06-13
 end_date: 2022-07-11
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Accelerometer%20Event/">accelerometer</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Activities%20Per%20Time/"> activities per time </a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Step%20Counter%20Event/">step counter</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Step%20Detector%20Event/">step detector</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Gyroscope%20Event/"> gyroscope </a>
+sensor_type: nan
 size: 7884.80 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: OpenCalls
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca">https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.AY-BF-BH-BI-BB
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Accelerometer%20Event/">2022-OC1-Hanoi-Accelerometer Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Activities%20Per%20Time/">2022-OC1-Hanoi-Activities Per Time</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Gyroscope%20Event/">2022-OC1-Hanoi-Gyroscope Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Step%20Counter%20Event/">2022-OC1-Hanoi-Step Counter Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Step%20Detector%20Event/">2022-OC1-Hanoi-Step Detector Event</a>
 duration_facet: "1 month"
+location_facet: Vietnam
 location_continent_facet: Asia
 data_type_facet: Motion
-project_facet: OpenCalls-Hanoi
 ---

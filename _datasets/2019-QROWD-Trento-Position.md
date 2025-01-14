@@ -16,7 +16,7 @@ longitude_map: 11.13
 start_date: 2020-07-09
 end_date: 2020-07-14
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Gyroscope%20Event/">gyroscope</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>
+sensor_type: nan
 size: 283648 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: QROWD
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/9e382c6d-6885-45df-97cb-d24fcbacc0a7">https://ds.datascientia.eu/community/public/projects/9e382c6d-6885-45df-97cb-d24fcbacc0a7</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 003.AAAC.AAA.BB-BN-BN
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Gyroscope%20Event/">2019-QRD-Trento-Gyroscope Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Location%20Event%20Per%20Time%20POI/">2019-QRD-Trento-Location Event Per Time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2019-QRD-Trento-Location%20Event%20Per%20Time%20RD/">2019-QRD-Trento-Location Event Per Time RD</a>
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Position
-project_facet: QROWD-Trento
 ---

@@ -19,7 +19,7 @@ longitude_map: -57.57
 start_date: 2022-01-17
 end_date: 2022-02-07
 dataset_type: Synchronic-Interactions
-sensor_type: unknown
+sensor_type: nan
 size: 0.03 MB
 dataset_format: parquet
 other_format: csv
@@ -29,13 +29,16 @@ collection_name: ChatApplication2
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAD.AA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "1 month"
+location_facet: Paraguay
 location_continent_facet: South America
-data_type_facet: nan
-project_facet: ChatApplication2-Asunción
+data_type_facet: Synchronic-Interactions
 ---

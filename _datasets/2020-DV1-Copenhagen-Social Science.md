@@ -15,8 +15,8 @@ latitude_map: 55.67
 longitude_map: 12.56
 start_date: 2020-09-28
 end_date: 2020-12-11
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Diachronic-Interactions/">Diachronic-Interactions</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Synchronic-Interactions/">Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Time%20Diaries/"> Timediaries </a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Questionnaire%20Diversity%20C/">Questionnaire C</a>
+dataset_type: Sensors
+sensor_type: nan
 size: 1205.46 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/3720e313-356e-4b7c-830e-be5cc7dbb3b10">https://ds.datascientia.eu/community/public/projects/3720e313-356e-4b7c-830e-be5cc7dbb3b10</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAC.BN-BO
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Diachronic-Interactions/">2020-DV1-Copenhagen-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Location%20Event%20Per%20Time%20POI/">2020-DV1-Copenhagen-Location Event Per Time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Location%20Event%20Per%20Time%20RD/">2020-DV1-Copenhagen-Location Event Per Time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Synchronic-Interactions/">2020-DV1-Copenhagen-Synchronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Copenhagen-Time%20Diaries/">2020-DV1-Copenhagen-Time Diaries</a>
 duration_facet: "2-6 months"
+location_facet: Denmark
 location_continent_facet: Europe
 data_type_facet: Daily annotations & Location
-project_facet: DiversityOne-Copenhagen
 ---

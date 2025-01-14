@@ -16,7 +16,7 @@ longitude_map: 126.5
 start_date: 2020-10-12
 end_date: 2021-06-18
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Application%20Event/">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Headset%20Plug%20Event/">headsetplug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Music%20Event/">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Notification%20Event/">notification</a>
+sensor_type: nan
 size: 23 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/923b2c1c-166c-4f53-a274-c9d6eaa5ad4f">https://ds.datascientia.eu/community/public/projects/923b2c1c-166c-4f53-a274-c9d6eaa5ad4f</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAF.AG-AH-AI-AJ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Application%20Event/">2020-DV1-Jilin-Application Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Headset%20Plug%20Event/">2020-DV1-Jilin-Headset Plug Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Music%20Event/">2020-DV1-Jilin-Music Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Notification%20Event/">2020-DV1-Jilin-Notification Event</a>
 duration_facet: "7-12 months"
+location_facet: China
 location_continent_facet: Asia
 data_type_facet: App-usage
-project_facet: DiversityOne-Jilin
 ---

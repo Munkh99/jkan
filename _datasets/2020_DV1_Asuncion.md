@@ -15,8 +15,8 @@ latitude_map: -25.26
 longitude_map: -57.57
 start_date: 2020-09-28
 end_date: 2020-12-11
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Synchronic-Interactions/"> Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-App-usage/"> App-usage</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Device-usage/"> Device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Position/"> Position</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Connectivity/"> Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Motion/"> Motion</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Environment/"> Environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Synchronic-Interactions/"> Synchronic-Interactions</a>
+dataset_type: nan
+sensor_type: nan
 size: 3379.20 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/6b8e2fb9-30d9-4fdb-9116-0cc7cc00ba3e">https://ds.datascientia.eu/community/public/projects/6b8e2fb9-30d9-4fdb-9116-0cc7cc00ba3e</a>
 category: 
   - Project
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAD.**
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-App-usage/">2020-DV1-Asuncion-App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Connectivity/">2020-DV1-Asuncion-Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Device-usage/">2020-DV1-Asuncion-Device-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Diachronic-Interactions/">2020-DV1-Asuncion-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Environment/">2020-DV1-Asuncion-Environment</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Motion/">2020-DV1-Asuncion-Motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Position/">2020-DV1-Asuncion-Position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Asuncion-Synchronic-Interactions/">2020-DV1-Asuncion-Synchronic-Interactions</a>
 duration_facet: "2-6 months"
+location_facet: Paraguay
 location_continent_facet: South America
 data_type_facet: nan
-project_facet: DiversityOne-Asunción
 ---

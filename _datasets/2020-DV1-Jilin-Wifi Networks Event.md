@@ -18,7 +18,7 @@ latitude_map: 43.83
 longitude_map: 126.5
 start_date: 2020-10-12
 end_date: 2021-06-18
-dataset_type: Sensors
+dataset_type: Sensor
 sensor_type: Connectivity
 size: 9.67 MB
 dataset_format: parquet
@@ -29,13 +29,16 @@ collection_name: DiversityOne
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAF.AO
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "7-12 months"
+location_facet: China
 location_continent_facet: Asia
-data_type_facet: nan
-project_facet: DiversityOne-Jilin
+data_type_facet: Connectivity
 ---

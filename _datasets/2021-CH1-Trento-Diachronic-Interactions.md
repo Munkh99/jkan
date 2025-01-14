@@ -16,7 +16,7 @@ longitude_map: 11.13
 start_date: 2021-06-04
 end_date: 2021-06-18
 dataset_type: Diachronic-Interactions
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Trento-Chat/"> Chat</a>
+sensor_type: nan
 size: 0.21 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/046c8202-4e96-490f-95e7-007e72578654">https://ds.datascientia.eu/community/public/projects/046c8202-4e96-490f-95e7-007e72578654</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAA.CA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Trento-Chat/">2021-CH1-Trento-Chat</a>
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: Diachronic-Interactions
-project_facet: ChatApplication1-Trento
 ---

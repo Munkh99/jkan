@@ -16,7 +16,7 @@ longitude_map: 12.56
 start_date: 2021-03-12
 end_date: 2021-03-28
 dataset_type: Diachronic-Interactions
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Copenhagen-Chat/"> Chat</a>
+sensor_type: nan
 size: 0.23 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/79f97076-9632-483a-b420-e68887ef8eb4">https://ds.datascientia.eu/community/public/projects/79f97076-9632-483a-b420-e68887ef8eb4</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAC.CA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-Copenhagen-Chat/">2021-CH1-Copenhagen-Chat</a>
 duration_facet: "1 month"
+location_facet: Denmark
 location_continent_facet: Europe
 data_type_facet: Diachronic-Interactions
-project_facet: ChatApplication1-Copenhagen
 ---

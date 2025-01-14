@@ -15,8 +15,8 @@ latitude_map: 43.83
 longitude_map: 126.5
 start_date: 2020-10-12
 end_date: 2021-06-18
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Diachronic-Interactions/">Diachronic-Interactions</a>,<a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Synchronic-Interactions/">Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Location%20Event%20Per%20Time%20POI/">location event per time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Location%20Event%20Per%20Time%20RD/">location event per time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Time%20Diaries/"> Timediaries </a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Questionnaire%20Diversity%20A/">Questionnaire A</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Questionnaire%20Diversity%20B/">Questionnaire B</a>, <a href ="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Questionnaire%20Diversity%20C/">Questionnaire C</a>
+dataset_type: Sensors
+sensor_type: nan
 size: 259.54 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/923b2c1c-166c-4f53-a274-c9d6eaa5ad4f">https://ds.datascientia.eu/community/public/projects/923b2c1c-166c-4f53-a274-c9d6eaa5ad4f</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAF.BN-BO
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Diachronic-Interactions/">2020-DV1-Jilin-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Location%20Event%20Per%20Time%20POI/">2020-DV1-Jilin-Location Event Per Time POI</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Location%20Event%20Per%20Time%20RD/">2020-DV1-Jilin-Location Event Per Time RD</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Synchronic-Interactions/">2020-DV1-Jilin-Synchronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-Jilin-Time%20Diaries/">2020-DV1-Jilin-Time Diaries</a>
 duration_facet: "7-12 months"
+location_facet: China
 location_continent_facet: Asia
 data_type_facet: Daily annotations & Location
-project_facet: DiversityOne-Jilin
 ---

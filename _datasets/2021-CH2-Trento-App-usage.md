@@ -16,7 +16,7 @@ longitude_map: 11.13
 start_date: 2021-11-20
 end_date: 2021-12-08
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Application%20Event/">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Notification%20Event/">notification</a>
+sensor_type: nan
 size: 3.80 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication2
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/326441a6-bc15-4393-b8e0-6ea7fcb4452e">https://ds.datascientia.eu/community/public/projects/326441a6-bc15-4393-b8e0-6ea7fcb4452e</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAA.AG-AJ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Application%20Event/">2021-CH2-Trento-Application Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Trento-Notification%20Event/">2021-CH2-Trento-Notification Event</a>
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
 data_type_facet: App-usage
-project_facet: ChatApplication2-Trento
 ---

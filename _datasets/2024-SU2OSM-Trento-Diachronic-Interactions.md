@@ -19,7 +19,7 @@ longitude_map: 11.13
 start_date: 2024-05-24
 end_date: 2024-08-24
 dataset_type: Diachronic-Interactions
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-OSM-Trento-Time%20Diaries/"> Timediaries answers </a>
+sensor_type: nan
 size: 3 MB
 dataset_format: parquet
 other_format: csv
@@ -29,13 +29,16 @@ collection_name: SmartUnitn2
 project_url: <a href="https://datascientia.disi.unitn.it/projects/su2osm/">https://datascientia.disi.unitn.it/projects/su2osm/</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.AC
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2024-OSM-Trento-Time%20Diaries/">2024-OSM-Trento-Time Diaries</a>
 duration_facet: "2-6 months"
+location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: Smart Unitn 2
-project_facet: SmartUnitn2 OSM Big Thick Data-Trento
+data_type_facet: Diachronic-Interactions
 ---

@@ -15,8 +15,8 @@ latitude_map: 47.92
 longitude_map: 106.9
 start_date: 2021-11-22
 end_date: 2021-12-06
-dataset_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Ulan%20Bator-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Ulan%20Bator-Synchronic-Interactions/"> Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Ulan%20Bator-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Ulan%20Bator-Synchronic-Interactions/"> Synchronic-Interactions</a>
+dataset_type: nan
+sensor_type: nan
 size: 0.34 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication2
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/4e384637-2aa1-455a-b1c4-e0d927e9306b">https://ds.datascientia.eu/community/public/projects/4e384637-2aa1-455a-b1c4-e0d927e9306b</a>
 category: 
   - Project
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAB.**
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Ulan%20Bator-Diachronic-Interactions/">2021-CH2-Ulan Bator-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH2-Ulan%20Bator-Synchronic-Interactions/">2021-CH2-Ulan Bator-Synchronic-Interactions</a>
 duration_facet: "1 month"
+location_facet: Mongolia
 location_continent_facet: Asia
 data_type_facet: nan
-project_facet: ChatApplication2-Ulan Bator
 ---

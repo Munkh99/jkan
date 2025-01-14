@@ -29,13 +29,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAB.BM
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "1 month"
+location_facet: Mongolia
 location_continent_facet: Asia
-data_type_facet: nan
-project_facet: ChatApplication1-Ulan Bator
+data_type_facet: Position
 ---

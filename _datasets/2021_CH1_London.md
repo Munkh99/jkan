@@ -15,8 +15,8 @@ latitude_map: 51.5
 longitude_map: 0.12
 start_date: 2021-03-12
 end_date: 2021-03-28
-dataset_type: Sensors, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Synchronic-Interactions/"> Synchronic-Interactions</a>
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-App-usage/"> App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Position/"> Position</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Connectivity/"> Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Motion/"> Motion</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Diachronic-Interactions/"> Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Synchronic-Interactions/">
+dataset_type: nan
+sensor_type: nan
 size: 8.10 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: ChatApplication1
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/7cdeeca4-a7be-4024-93c8-07e4cbea4851">https://ds.datascientia.eu/community/public/projects/7cdeeca4-a7be-4024-93c8-07e4cbea4851</a>
 category: 
   - Project
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAE.AAE.**
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-App-usage/">2021-CH1-London-App-usage</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Connectivity/">2021-CH1-London-Connectivity</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Diachronic-Interactions/">2021-CH1-London-Diachronic-Interactions</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Motion/">2021-CH1-London-Motion</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Position/">2021-CH1-London-Position</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2021-CH1-London-Synchronic-Interactions/">2021-CH1-London-Synchronic-Interactions</a>
 duration_facet: "1 month"
+location_facet: United Kingdom
 location_continent_facet: Europe
 data_type_facet: nan
-project_facet: ChatApplication1-London
 ---

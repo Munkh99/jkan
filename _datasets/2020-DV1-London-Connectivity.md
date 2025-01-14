@@ -16,7 +16,7 @@ longitude_map: 0.12
 start_date: 2020-10-19
 end_date: 2020-12-18
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Cellular%20Network/"> cellular network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Wifi%20Networks%20Event/">wifi networks</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Wifi%20Event/">wifi</a>,  <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Bluetooth%20Normal%20Event/">bluetooth</a>
+sensor_type: nan
 size: 389 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90400">https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90400</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAE.AM-AO-AN-AK
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Bluetooth%20Normal%20Event/">2020-DV1-London-Bluetooth Normal Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Cellular%20Network/">2020-DV1-London-Cellular Network</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Wifi%20Event/">2020-DV1-London-Wifi Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Wifi%20Networks%20Event/">2020-DV1-London-Wifi Networks Event</a>
 duration_facet: "2-6 months"
+location_facet: United Kingdom
 location_continent_facet: Europe
 data_type_facet: Connectivity
-project_facet: DiversityOne-London
 ---

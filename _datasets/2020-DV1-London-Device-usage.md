@@ -16,7 +16,7 @@ longitude_map: 0.12
 start_date: 2020-10-19
 end_date: 2020-12-18
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Airplane%20Mode%20Event/">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Doze%20Event/">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Ring%20Mode%20Event/">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Screen%20Event/">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Touch%20Event/">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Batterycharge%20Event/">battery charge</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Battery%20Monitoring%20Log/">battery level</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-User%20Presence%20Event/">user presence</a>
+sensor_type: nan
 size: 92 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90401">https://ds.datascientia.eu/community/public/projects/ff8fb8d9-ecfd-4c39-bc09-c80eb4d90401</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAE.BS-BV-BW-BX-BY-BU-BT-BZ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Airplane%20Mode%20Event/">2020-DV1-London-Airplane Mode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Battery%20Monitoring%20Log/">2020-DV1-London-Battery Monitoring Log</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Batterycharge%20Event/">2020-DV1-London-Batterycharge Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Doze%20Event/">2020-DV1-London-Doze Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Ring%20Mode%20Event/">2020-DV1-London-Ring Mode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Screen%20Event/">2020-DV1-London-Screen Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-Touch%20Event/">2020-DV1-London-Touch Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-London-User%20Presence%20Event/">2020-DV1-London-User Presence Event</a>
 duration_facet: "2-6 months"
+location_facet: United Kingdom
 location_continent_facet: Europe
 data_type_facet: Device-usage
-project_facet: DiversityOne-London
 ---

@@ -18,7 +18,7 @@ latitude_map: 51.5
 longitude_map: 0.12
 start_date: 2020-10-19
 end_date: 2020-12-18
-dataset_type: Sensors
+dataset_type: Sensor
 sensor_type: Position
 size: 113.34 MB
 dataset_format: parquet
@@ -29,13 +29,16 @@ collection_name: DiversityOne
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAE.BN
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "2-6 months"
+location_facet: United Kingdom
 location_continent_facet: Europe
-data_type_facet: nan
-project_facet: DiversityOne-London
+data_type_facet: Position
 ---

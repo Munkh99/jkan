@@ -32,13 +32,16 @@ collection_name: SmartUnitn2
 project_url: <a href="http://www.smart-society-project.eu/">http://www.smart-society-project.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.BA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: nan
-project_facet: SmartUnitn2-Trento
+data_type_facet: Motion
 ---

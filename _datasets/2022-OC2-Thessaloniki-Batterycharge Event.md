@@ -9,13 +9,13 @@ resources:
     format: 
 license: >-
  ./../../resources/2023LivePeopleLicense.html
-dataset_name: Batterycharge
+dataset_name: Battery Charge
 location: Thessaloniki (Greece)
 latitude_map: 40.64
 longitude_map: 22.94
 start_date: 2022-06-07
 end_date: 2022-07-06
-dataset_type: Sensors
+dataset_type: Sensor
 sensor_type: Device-usage
 size: 9.31 MB
 dataset_format: parquet
@@ -26,13 +26,16 @@ collection_name: OpenCalls
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAI.AAK.BU
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "1 month"
+location_facet: Greece
 location_continent_facet: Europe
-data_type_facet: nan
-project_facet: OpenCalls-Thessaloniki
+data_type_facet: Device-usage
 ---

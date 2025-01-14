@@ -16,7 +16,7 @@ longitude_map: -100.9
 start_date: 2019-08-30
 end_date: 2021-08-14
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Application%20Event/">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Headset%20Plug%20Event/">headsetplug</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Music%20Event/">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Notification%20Event/">notification</a>
+sensor_type: nan
 size: 27 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: DiversityOne
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd">https://ds.datascientia.eu/community/public/projects/0dcf26af-cb8f-4f61-b0c5-802a1a1febbd</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAH.AG-AH-AI-AJ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Application%20Event/">2020-DV1-San Luis Potos%C3%AD -Application Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Headset%20Plug%20Event/">2020-DV1-San Luis Potos%C3%AD -Headset Plug Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Music%20Event/">2020-DV1-San Luis Potos%C3%AD -Music Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2020-DV1-San%20Luis%20Potos%C3%AD%20-Notification%20Event/">2020-DV1-San Luis Potos%C3%AD -Notification Event</a>
 duration_facet: ">12 months"
+location_facet: Mexico
 location_continent_facet: North America
 data_type_facet: App-usage
-project_facet: DiversityOne-San Luis Potosí
 ---

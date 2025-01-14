@@ -12,14 +12,14 @@ resources:
     format: PDF
 license: >-
  ./../../resources/2023LivePeopleLicense.html
-dataset_name: Device Usage
+dataset_name: Device-usage
 location: Trento (Italy)
 latitude_map: 46.07
 longitude_map: 11.13
 start_date: 2018-05-11
 end_date: 2018-06-06
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Airplane%20Mode%20Event/">airplane mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Doze%20Mode/">doze</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Ringmode%20Event/">ring mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Screen%20Event/">screen</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Touch%20Event/">touch</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Battery%20Charge%20Event/">battery charge</a>
+sensor_type: nan
 size: 123 MB
 dataset_format: parquet
 other_format: csv
@@ -29,13 +29,16 @@ collection_name: SmartUnitn2
 project_url: <a href="http://www.smart-society-project.eu/">http://www.smart-society-project.eu/</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.BS-BV-BW-BX-BY-BT
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Airplane%20Mode%20Event/">2018-SU2-Trento-Airplane Mode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Battery%20Charge%20Event/">2018-SU2-Trento-Battery Charge Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Doze%20Mode/">2018-SU2-Trento-Doze Mode</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Ringmode%20Event/">2018-SU2-Trento-Ringmode Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Screen%20Event/">2018-SU2-Trento-Screen Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2018-SU2-Trento-Touch%20Event/">2018-SU2-Trento-Touch Event</a>
 duration_facet: "1 month"
+location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: Device Usage
-project_facet: SmartUnitn2-Trento
+data_type_facet: Device-usage
 ---

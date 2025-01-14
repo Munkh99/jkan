@@ -29,13 +29,16 @@ collection_name: DiversityOne
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAA.AA
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "2-6 months"
+location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: nan
-project_facet: DiversityOne-Trento
+data_type_facet: Synchronic-Interactions
 ---

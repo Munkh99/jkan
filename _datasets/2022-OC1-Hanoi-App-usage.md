@@ -16,7 +16,7 @@ longitude_map: 105.8
 start_date: 2022-06-13
 end_date: 2022-07-11
 dataset_type: Sensors
-sensor_type: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Application%20Event/">application</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Music%20Event/">music</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Notification%20Event/">notification</a>
+sensor_type: nan
 size: 65 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: OpenCalls
 project_url: <a href="https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca">https://ds.datascientia.eu/community/public/projects/3b975830-9ecc-4127-855b-f88b8b5fe2ca</a>
 category: 
   - Dataset Bundle
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.AG-AI-AJ
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Application%20Event/">2022-OC1-Hanoi-Application Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Music%20Event/">2022-OC1-Hanoi-Music Event</a>, <a href="https://datascientiafoundation.github.io/LivePeople/datasets/2022-OC1-Hanoi-Notification%20Event/">2022-OC1-Hanoi-Notification Event</a>
 duration_facet: "1 month"
+location_facet: Vietnam
 location_continent_facet: Asia
 data_type_facet: App-usage
-project_facet: OpenCalls-Hanoi
 ---

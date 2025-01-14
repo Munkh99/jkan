@@ -19,7 +19,7 @@ longitude_map: 11.13
 start_date: 2024-05-24
 end_date: 2024-08-24
 dataset_type: Diachronic-Interactions
-sensor_type: unknown
+sensor_type: nan
 size: 19.90 MB
 dataset_format: csv
 other_format: unknown
@@ -29,13 +29,16 @@ collection_name: SmartUnitn2OSM
 project_url: <a href="https://datascientia.disi.unitn.it/projects/su2osm/">https://datascientia.disi.unitn.it/projects/su2osm/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2024-09-16
 identifier: 007.AAAP.AAA.AC
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "2-6 months"
+location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: nan
-project_facet: SmartUnitn2 OSM Big Thick Data-Trento
+data_type_facet: Diachronic-Interactions
 ---

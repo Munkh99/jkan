@@ -16,7 +16,7 @@ longitude_map: 105.8
 start_date: 2022-06-13
 end_date: 2022-07-11
 dataset_type: Diachronic-Interactions
-sensor_type: unknown
+sensor_type: nan
 size: 0.07 MB
 dataset_format: parquet
 other_format: csv
@@ -26,13 +26,16 @@ collection_name: OpenCalls
 project_url: <a href="https://www.internetofus.eu/">https://www.internetofus.eu/</a>
 category: 
   - Dataset
+domain: 
+  - Digital University
 domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.AC
 request_contact: datadistribution.knowdive@unitn.it
+component_dataset_link: 
 duration_facet: "1 month"
+location_facet: Vietnam
 location_continent_facet: Asia
-data_type_facet: nan
-project_facet: OpenCalls-Hanoi
+data_type_facet: Diachronic-Interactions
 ---
