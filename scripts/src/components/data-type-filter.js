@@ -4,7 +4,7 @@ import {chain, pick, omit, filter, defaults} from 'lodash'
 import TmplListGroupItem from '../templates/list-group-item'
 import {setContent, slugify, createDatasetFilters, collapseListGroup} from '../util'
 
-export default class {
+export default class DataTypeFilter {
     constructor(opts) {
         const dataTypes = this._dataTypesWithCount(opts.datasets, opts.params)
         const dataTypesMarkup = dataTypes.map(TmplListGroupItem)
