@@ -68,7 +68,7 @@ export function createDatasetFilters(filters) {
             console.log("filter data_type_facet")
             console.log(filters.data_type_facet)
             console.log(slugify(dataset.data_type_facet))
-            conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet).indexOf(filters.data_type_facet) !== -1)
+            conditions.push(dataset.data_type_facet && slugify(dataset.data_type_facet) === (filters.data_type_facet))
         }
 
 

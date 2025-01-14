@@ -1,10 +1,10 @@
 import $ from 'jquery'
-import {chain, pick, omit, filter, defaults} from 'lodash'
+import { chain, pick, omit, filter, defaults } from 'lodash'
 
 import TmplListGroupItem from '../templates/list-group-item'
-import {setContent, slugify, createDatasetFilters, collapseListGroup} from '../util'
+import { setContent, slugify, createDatasetFilters, collapseListGroup } from '../util'
 
-export default class {
+export default class DataTypeFacetFilter {
     constructor(opts) {
         const dataTypes = this._dataTypesWithCount(opts.datasets, opts.params)
         const dataTypesMarkup = dataTypes.map(TmplListGroupItem)
@@ -12,15 +12,38 @@ export default class {
         collapseListGroup(opts.el)
     }
 
+    // Given an array of datasets, returns an array of their data types with counts
     _dataTypesWithCount(datasets, params) {
         return chain(datasets)
-            .groupBy('data_type_facet') // Group by the 'data_type_facet' column
-            .map(function (datasetsInType, dataType) {
-                const filters = createDatasetFilters(pick(params, [['category', 'collection_name', 'location', 'location_continent_facet', 'year', 'data_type_facet','duration']])) // Include other filters if needed
+            .filter('data_type_facet') // Filter datasets with a data_type_facet
+            .flatMap((value) => {
+                // Explode objects where data_type_facet is an array into one object per data type
+                if (typeof value.data_type_facet === 'string') return value
+                const duplicates = []
+                value.data_type_facet.forEach((dataType) => {
+                    duplicates.push(defaults({ data_type_facet: dataType }, value))
+                })
+                return duplicates
+            })
+            .groupBy('data_type_facet') // Group by data_type_facet
+            .map((datasetsInType, dataType) => {
+                const filters = createDatasetFilters(pick(params, [
+                    'data_type_facet',
+                    'category',
+                    'collection_name',
+                    'location',
+                    'year',
+                    'location_continent_facet',
+                    'duration_facet',
+                    'data_type_facet'
+                ])) // Adjust filters to include data_type_facet
                 const filteredDatasets = filter(datasetsInType, filters)
-                const typeSlug = slugify(dataType)
-                const selected = params.data_type_facet && params.data_type_facet === typeSlug
-                const itemParams = selected ? omit(params, 'data_type_facet') : defaults({data_type_facet: typeSlug}, params)
+                const dataTypeSlug = slugify(dataType)
+                const selected = params.data_type_facet && params.data_type_facet === dataTypeSlug
+                const itemParams = selected
+                    ? omit(params, 'data_type_facet')
+                    : defaults({ data_type_facet: dataTypeSlug }, params)
+
                 return {
                     title: dataType,
                     url: '?' + $.param(itemParams),
@@ -29,7 +52,7 @@ export default class {
                     selected: selected
                 }
             })
-            .orderBy('title', 'asc') // Order by title alphabetically
+            .orderBy('title', 'asc')
             .value()
     }
 }
