@@ -16,10 +16,8 @@ longitude_map: 32.56
 start_date: 2024-03-18
 end_date: 2024-05-13
 dataset_type: Synchronic-Interactions
-sensor_type: nan
 size: 0.10 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 63
 language: English
 collection_name: Makerere
@@ -28,7 +26,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.AA

@@ -19,10 +19,8 @@ longitude_map: 11.13
 start_date: 2018-05-11
 end_date: 2018-06-06
 dataset_type: Sensors
-sensor_type: nan
 size: 95232 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 158
 language: English
 collection_name: SmartUnitn2
@@ -31,7 +29,6 @@ category:
   - Dataset Bundle
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.AS-AT-AR

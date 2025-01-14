@@ -22,7 +22,6 @@ dataset_type: Sensor
 sensor_type: Environment
 size: 3086.45 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 9
 language: Not Applicable
 collection_name: DiversityOne
@@ -31,7 +30,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAF.AS

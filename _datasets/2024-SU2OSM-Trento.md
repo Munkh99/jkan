@@ -18,11 +18,8 @@ latitude_map: 46.07
 longitude_map: 11.13
 start_date: 2024-05-24
 end_date: 2024-08-24
-dataset_type: nan
-sensor_type: nan
 size: 19.90 MB
 dataset_format: csv
-other_format: unknown
 number_participants: 158
 language: English
 collection_name: SmartUnitn2OSM
@@ -31,7 +28,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2024-09-16
 identifier: 007.AAAP.AAA.**
@@ -40,5 +36,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "2-6 months"
 location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: nan
 ---

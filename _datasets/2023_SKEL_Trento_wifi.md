@@ -19,7 +19,6 @@ dataset_type: Sensor
 sensor_type: Connectivity
 size: 0.23 MB
 dataset_format: parquet
-other_format: unknown
 number_participants: 59
 language: unknown
 collection_name: Skel
@@ -28,7 +27,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2024-11-16 12:45:57
 identifier: 008.AAAQ.AAA.AN

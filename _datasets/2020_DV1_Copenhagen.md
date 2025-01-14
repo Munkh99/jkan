@@ -15,11 +15,8 @@ latitude_map: 55.67
 longitude_map: 12.56
 start_date: 2020-09-28
 end_date: 2020-12-11
-dataset_type: nan
-sensor_type: nan
 size: 3072.00 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 18
 language: Not Applicable
 collection_name: DiversityOne
@@ -28,7 +25,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAC.**
@@ -37,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "2-6 months"
 location_facet: Denmark
 location_continent_facet: Europe
-data_type_facet: nan
 ---

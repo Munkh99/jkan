@@ -19,10 +19,8 @@ longitude_map: 0.12
 start_date: 2021-11-22
 end_date: 2021-12-06
 dataset_type: Synchronic-Interactions
-sensor_type: nan
 size: 0.02 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 19
 language: Not Applicable
 collection_name: ChatApplication2
@@ -31,7 +29,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAE.AA

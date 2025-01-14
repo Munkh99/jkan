@@ -15,11 +15,8 @@ latitude_map: 40.64
 longitude_map: 22.94
 start_date: 2022-06-07
 end_date: 2022-07-06
-dataset_type: nan
-sensor_type: nan
 size: 21504 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 164
 language: English
 collection_name: OpenCalls
@@ -28,7 +25,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 006.AAAI.AAK.**
@@ -37,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "1 month"
 location_facet: Greece
 location_continent_facet: Europe
-data_type_facet: nan
 ---

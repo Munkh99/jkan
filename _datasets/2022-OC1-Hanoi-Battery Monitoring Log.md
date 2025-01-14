@@ -19,7 +19,6 @@ dataset_type: Sensor
 sensor_type: Device-usage
 size: 0.08 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 52
 language: Not Applicable
 collection_name: OpenCalls
@@ -28,7 +27,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 006.AAAJ.AAJ.BT

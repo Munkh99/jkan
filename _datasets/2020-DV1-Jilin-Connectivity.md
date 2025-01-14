@@ -16,10 +16,8 @@ longitude_map: 126.5
 start_date: 2020-10-12
 end_date: 2021-06-18
 dataset_type: Sensors
-sensor_type: nan
 size: 95 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 40
 language: Not Applicable
 collection_name: DiversityOne
@@ -28,7 +26,6 @@ category:
   - Dataset Bundle
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAF.AM-AO-AO-AK

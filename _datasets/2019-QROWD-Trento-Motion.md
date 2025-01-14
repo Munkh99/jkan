@@ -16,10 +16,8 @@ longitude_map: 11.13
 start_date: 2020-07-09
 end_date: 2020-07-14
 dataset_type: Sensors
-sensor_type: nan
 size: 283648 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 157
 language: Not Applicable
 collection_name: QROWD
@@ -28,7 +26,6 @@ category:
   - Dataset Bundle
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 003.AAAC.AAA.AY-BF

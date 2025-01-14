@@ -15,11 +15,8 @@ latitude_map: 51.5
 longitude_map: 0.12
 start_date: 2021-11-22
 end_date: 2021-12-06
-dataset_type: nan
-sensor_type: nan
 size: 0.21 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 19
 language: English
 collection_name: ChatApplication2
@@ -28,7 +25,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAE.**
@@ -37,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "1 month"
 location_facet: United Kingdom
 location_continent_facet: Europe
-data_type_facet: nan
 ---

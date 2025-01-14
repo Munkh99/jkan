@@ -15,11 +15,8 @@ latitude_map: 0.335
 longitude_map: 32.56
 start_date: 2024-03-18
 end_date: 2024-05-13
-dataset_type: nan
-sensor_type: nan
 size: 22528 MB
 dataset_format: csv
-other_format: unknown
 number_participants: 73
 language: English
 collection_name: Makerere
@@ -28,7 +25,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.**
@@ -37,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "2-6 months"
 location_facet: Uganda
 location_continent_facet: Africa
-data_type_facet: nan
 ---

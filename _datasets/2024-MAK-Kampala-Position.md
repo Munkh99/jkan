@@ -16,10 +16,8 @@ longitude_map: 32.56
 start_date: 2024-03-18
 end_date: 2024-05-13
 dataset_type: Sensors
-sensor_type: nan
 size: 7884.80 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 62
 language: Not Applicable
 collection_name: Makerere
@@ -28,7 +26,6 @@ category:
   - Dataset Bundle
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.BR-BP-BL-BM-BQ

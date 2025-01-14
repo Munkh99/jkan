@@ -25,7 +25,6 @@ dataset_type: Sensor
 sensor_type: Device-usage
 size: 12 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 139
 language: Not Applicable
 collection_name: SmartUnitn2
@@ -34,7 +33,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-04-07
 identifier: 002.AAAB.AAA.BX

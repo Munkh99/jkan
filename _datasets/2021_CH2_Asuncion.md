@@ -15,11 +15,8 @@ latitude_map: 25.26
 longitude_map: 57.57
 start_date: 2022-01-17
 end_date: 2022-02-07
-dataset_type: nan
-sensor_type: nan
 size: 0.25 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 23
 language: English
 collection_name: ChatApplication2
@@ -28,7 +25,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-04-18
 identifier: 005.AAAG.AAD.**
@@ -37,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "1 month"
 location_facet: Paraguay
 location_continent_facet: South America
-data_type_facet: nan
 ---

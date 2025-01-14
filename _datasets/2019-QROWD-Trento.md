@@ -15,11 +15,8 @@ latitude_map: 46.07
 longitude_map: 11.13
 start_date: 2020-07-09
 end_date: 2020-07-14
-dataset_type: nan
-sensor_type: nan
 size: 283648 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 157
 language: Not Applicable
 collection_name: QROWD
@@ -28,7 +25,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-12-20
 identifier: 003.AAAC.AAA.**
@@ -37,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "1 month"
 location_facet: Italy
 location_continent_facet: Europe
-data_type_facet: nan
 ---

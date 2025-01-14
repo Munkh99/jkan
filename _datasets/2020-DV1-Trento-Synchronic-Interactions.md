@@ -16,10 +16,8 @@ longitude_map: 11.13
 start_date: 2020-09-28
 end_date: 2020-12-11
 dataset_type: Synchronic-Interactions
-sensor_type: nan
 size: 8.20 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 5692
 language: Not Applicable
 collection_name: DiversityOne
@@ -28,7 +26,6 @@ category:
   - Dataset Bundle
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAA.AA

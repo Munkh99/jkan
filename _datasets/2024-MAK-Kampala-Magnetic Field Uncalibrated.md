@@ -19,7 +19,6 @@ dataset_type: Sensor
 sensor_type: Position
 size: 2591.76 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 37
 language: English
 collection_name: Makerere
@@ -28,7 +27,6 @@ category:
   - Dataset
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2024-10-03
 identifier: 007.AAAN.AAN.BL

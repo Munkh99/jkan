@@ -15,11 +15,8 @@ latitude_map: 47.92
 longitude_map: 106.9
 start_date: 2020-09-28
 end_date: 2020-12-11
-dataset_type: nan
-sensor_type: nan
 size: 28672 MB
 dataset_format: parquet
-other_format: csv
 number_participants: 164
 language: Not Applicable
 collection_name: DiversityOne
@@ -28,7 +25,6 @@ category:
   - Project
 domain: 
   - Digital University
-domain: Digital University
 5_stars: 3
 publication_date: 2023-11-30
 identifier: 004.AAAD.AAB.**
@@ -37,5 +33,4 @@ component_dataset_link: <a href="https://datascientiafoundation.github.io/LivePe
 duration_facet: "2-6 months"
 location_facet: Mongolia
 location_continent_facet: Asia
-data_type_facet: nan
 ---
